@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ -e src ];then
+    echo ">>> 开始备份"
+else mkdir src
+fi
+    cp -r ./assets ./public ./.vitepress ./send ./backup ./src
+    cp -r ./about-acovia-community ./fovlin-notes ./script ./index.md ./src
