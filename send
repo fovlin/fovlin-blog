@@ -17,4 +17,8 @@ cp -r ./index.md ./welcome.md \
 
 npx vitepress build
 
+rsync -rv ./.vitepress/dist/ acovia.net:/home/fovlin/service/web/
+
+git commit -a -m "auto commit"
+
 git push
