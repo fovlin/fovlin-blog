@@ -32,7 +32,8 @@ export default defineConfig({
                         collapsed:false,
                         items:[
                             {text:'文件管理', link:'/fovlin-notes/linux-guide/use-cli/file-manage'},
-                            {text:'I/O 重定向', link:'/fovlin-notes/linux-guide/use-cli/io-redirection'}
+                            {text:'I/O 重定向', link:'/fovlin-notes/linux-guide/use-cli/io-redirection'},
+                            {text:'I/O 重定向', link:'/fovlin-notes/linux-guide/use-cli/proc-manage'}
                         ]
                     },
                     {
@@ -82,6 +83,7 @@ export default defineConfig({
                 collapsed:false,
                 items:[
                     {text:'超时空辉夜姬', link:'/novel/chrono-kaguya'},
+                    {text:'四叶奏合集', link:'/novel/siye'},
                     {
                         text:'源于阿古亚的故事',
                         collapsed:false,
