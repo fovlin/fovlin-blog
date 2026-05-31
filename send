@@ -17,8 +17,4 @@ cp -r ./index.md ./welcome.md \
 
 npx vitepress build
 
-rsync -rv ./.vitepress/dist/ acovia.net:/home/fovlin/service/web/
-
-rsync -rv ./web-src acovia.net:/home/fovlin/files/documents/
-
-rsync -rv ./web-src/ acovia.net:/home/fovlin/service/web/
+git push
