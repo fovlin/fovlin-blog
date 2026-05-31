@@ -1,1 +1,0 @@
-import{c as n,ah as c,L as r,an as t}from"./framework.YKVbmyBD.js";const a={};function o(e,s){return c(),r("div",null,[t(e.$slots,"default",{},void 0,!0)])}const _=n(a,[["render",o],["__scopeId","data-v-c9f66089"]]);export{_ as H};

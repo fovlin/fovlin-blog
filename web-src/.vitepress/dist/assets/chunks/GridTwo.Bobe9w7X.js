@@ -1,1 +1,0 @@
-import"./CardFiles.DTC2b2y8.js";import{c as o,ah as r,L as s,an as t}from"./framework.YKVbmyBD.js";const c={},n={class:"grid-two"};function a(e,_){return r(),s("div",n,[t(e.$slots,"default")])}const l=o(c,[["render",a]]);export{l as G};

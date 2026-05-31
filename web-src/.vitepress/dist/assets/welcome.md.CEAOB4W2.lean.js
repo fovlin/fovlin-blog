@@ -1,1 +1,0 @@
-import{c as a,ah as t,L as r,O as o}from"./chunks/framework.YKVbmyBD.js";const h=JSON.parse('{"title":"欢迎！","description":"","frontmatter":{},"headers":[],"relativePath":"welcome.md","filePath":"welcome.md"}'),n={name:"welcome.md"};function l(p,e,s,c,i,_){return t(),r("div",null,[...e[0]||(e[0]=[o("",8)])])}const m=a(n,[["render",l]]);export{h as __pageData,m as default};

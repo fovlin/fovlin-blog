@@ -7,14 +7,6 @@ fi
 
 echo ">>> 开始备份"
 
-cp -r ./assets ./public ./.vitepress ./send ./web-src
-cp -r ./index.md ./welcome.md \
-./acovia-server \
-./fovlin-notes \
-./fovlin \
-./novel \
-./web-src
-
 npx vitepress build
 
 rsync -rv ./.vitepress/dist/ acovia.net:/home/fovlin/service/web/
