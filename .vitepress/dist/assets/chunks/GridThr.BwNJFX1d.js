@@ -1,1 +1,0 @@
-import{c as r,ah as s,L as c,an as o}from"./framework.YKVbmyBD.js";const t={},n={class:"grid"};function a(e,_){return s(),c("div",n,[o(e.$slots,"default")])}const i=r(t,[["render",a]]);export{i as G};
