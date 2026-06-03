@@ -128,3 +128,11 @@ pkill code
 ```bash
 pkill -f prism
 ```
+
+## 接管进程
+
+一个名为 `reptyr` 的工具可以将进程从其他终端转移到本终端，使用方法如下：
+
+```text
+reptyr <pid>
+```

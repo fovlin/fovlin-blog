@@ -1,7 +1,7 @@
 # acovia-website
 
 Use follow command to clone this repo.
-1
+
 ```bash
 git clone https://github.com/fovlin/acovia/website.git
 ```

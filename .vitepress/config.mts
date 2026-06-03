@@ -21,7 +21,7 @@ export default defineConfig({
             {text:'Welcome', link:'/welcome'},
             {
                 text: 'Linux 简明指南',
-                collapsed:false,
+                collapsed:true,
                 items: [
                     { text: '选择发行版', link: '/fovlin-notes/linux-guide/choose' },
                     { text: '安装选项', link: '/fovlin-notes/linux-guide/install-linux-options' },
@@ -29,16 +29,16 @@ export default defineConfig({
                     { text: '认识命令行', link: '/fovlin-notes/linux-guide/cli-guide' },
                     {
                         text:'使用命令行',
-                        collapsed:false,
+                        collapsed:true,
                         items:[
                             {text:'文件管理', link:'/fovlin-notes/linux-guide/use-cli/file-manage'},
                             {text:'I/O 重定向', link:'/fovlin-notes/linux-guide/use-cli/io-redirection'},
-                            {text:'I/O 重定向', link:'/fovlin-notes/linux-guide/use-cli/proc-manage'}
+                            {text:'进程管理', link:'/fovlin-notes/linux-guide/use-cli/proc-manage'}
                         ]
                     },
                     {
                         text: '配置系统',
-                        collapsed:false,
+                        collapsed:true,
                         items: [
                             { text: '区域语言', link: '/fovlin-notes/linux-guide/configure-system/locale' },
                             { text: '用户管理', link: '/fovlin-notes/linux-guide/configure-system/user-manage' },
@@ -57,20 +57,20 @@ export default defineConfig({
             },
             {
                 text: 'MC 数据包制作',
-                collapsed:false,
+                collapsed:true,
                 items: [
                     { text: '入门指南', link: '/fovlin-notes/datapack-guide/1-1' }
                 ]
             },
             {
                 text:'前端 Notes',
-                collapsed:false,
+                collapsed:true,
                 items:[
                     { text: '前端基础', link: '/fovlin-notes/web-guide/web-base'},
                     { text: '网站部署', link: '/fovlin-notes/web-guide/web-release' },
                     {
                         text:"Nginx 指南",
-                        collapsed:false,
+                        collapsed:true,
                         items:[
                             {text:'Nginx 搭建下载站', link: '/fovlin-notes/web-guide/nginx-guide/autoindex'},
                             {text:'Nginx 反向代理', link: '/fovlin-notes/web-guide/nginx-guide/proxy'},
@@ -80,13 +80,13 @@ export default defineConfig({
             },
             {
                 text:'放映厅',
-                collapsed:false,
+                collapsed:true,
                 items:[
                     {text:'超时空辉夜姬', link:'/novel/chrono-kaguya'},
                     {text:'四叶奏合集', link:'/novel/siye'},
                     {
                         text:'源于阿古亚的故事',
-                        collapsed:false,
+                        collapsed:true,
                         items:[
                             {text:'我们的相遇', link:'/novel/the-story-from-aqua/our-meeting.md'}
                         ]
@@ -95,21 +95,21 @@ export default defineConfig({
             },
             {
                 text:'Fovlin',
-                collapsed:false,
+                collapsed:true,
                 items:[
                     {text:'关于 Fovlin', link:'/fovlin/about-me'},
                 ]
             },
             {
                 text: '关于 Acovia',
-                collapsed:false,
+                collapsed:true,
                 items: [
                     { text: '社区介绍', link: '/acovia-server/1-1' },
                     { text: '特殊玩法', link: '/acovia-server/special-gameplay' },
                     { text: '更新日志', link: '/acovia-server/new' },
                     {
                         text:'剧本',
-                        collapsed:false,
+                        collapsed:true,
                         items:[
                             {text: '第一幕：安息香花海', link: '/acovia-server/script/1-page'},
                         ]
