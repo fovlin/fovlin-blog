@@ -145,7 +145,8 @@ url(https://acovia.net/docs/acovia-server/pictures/acovia-1.png);
 
   .container[data-v-86346a6a] {
     margin: 0px 0px !important;
-    max-width: none !important;
+    max-width: unset !important;
+    padding: 0px 0px;
   }
 }
 
