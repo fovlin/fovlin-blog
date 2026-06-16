@@ -25,7 +25,6 @@
     }
 
     .VPHome .grid-two {
-        padding: 0px 128px;
     }
 }
 </style>
