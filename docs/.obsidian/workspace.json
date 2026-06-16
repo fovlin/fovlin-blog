@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux-guide/use-cli/file-manage.md",
+                "file": "linux-guide/os-guide.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "file-manage"
+              "title": "os-guide"
             }
           }
         ]
@@ -185,7 +185,11 @@
   },
   "active": "927b36107610cfda",
   "lastOpenFiles": [
+    "linux-guide/install-linux-options.md",
+    "linux-guide/os-guide.md",
+    "linux-guide/cli-guide.md",
     "linux-guide/choose.md",
+    "linux-guide/use-cli/io-redirection.md",
     "linux-guide/use-cli/file-manage.md"
   ]
 }

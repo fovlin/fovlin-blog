@@ -1,4 +1,4 @@
-# 认识 Linux 系统
+# 了解 Linux 系统
 
 ## Linux 内核
 
