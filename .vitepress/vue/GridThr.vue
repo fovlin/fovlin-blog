@@ -22,7 +22,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         align-items: left;
         grid-gap: 12px 12px;
-        padding: 0px 128px;
+        padding: 0px 0px;
     }
 }
 </style>

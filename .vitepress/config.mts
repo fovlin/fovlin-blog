@@ -21,6 +21,7 @@ export default defineConfig({
       {text:'Welcome', link:'/welcome'},
       {
         text: 'Linux 简明指南',
+        collapsed:true,
         items: [
           { text: '选择发行版', link: '/docs/linux-guide/choose' },
           { text: '安装选项', link: '/docs/linux-guide/install-linux-options' },
@@ -28,6 +29,7 @@ export default defineConfig({
           { text: '认识命令行', link: '/docs/linux-guide/cli-guide' },
           {
             text:'使用命令行',
+        collapsed:true,
             items:[
               {text:'文件管理', link:'/docs/linux-guide/use-cli/file-manage'},
               {text:'I/O 重定向', link:'/docs/linux-guide/use-cli/io-redirection'},
@@ -36,6 +38,7 @@ export default defineConfig({
           },
           {
             text: '配置系统',
+            collapsed:true,
             items: [
               { text: '区域语言', link: '/docs/linux-guide/configure-system/locale' },
               { text: '用户管理', link: '/docs/linux-guide/configure-system/user-manage' },
@@ -54,18 +57,21 @@ export default defineConfig({
       },
       {
         text: 'Go 语言',
+        collapsed:true,
         items: [
           { text:'关于本板块', link: '/docs/golang/about-this'},
         ]
       },
       {
         text:'前端 Notes',
+        collapsed:true,
         items:[
           { text: '前端基础', link: '/docs/web-guide/web-base'},
           { text: '网站部署', link: '/docs/web-guide/web-release' },
           {
             text:"Nginx 指南",
             
+            collapsed:true,
             items:[
               {text:'Nginx 搭建下载站', link: '/docs/web-guide/nginx-guide/autoindex'},
               {text:'Nginx 反向代理', link: '/docs/web-guide/nginx-guide/proxy'},
@@ -75,6 +81,7 @@ export default defineConfig({
       },
       {
         text:'放映厅',
+        collapsed:true,
         items:[
           {text:'超时空辉夜姬', link:'/docs/novel/chrono-kaguya'},
           {text:'四叶奏合集', link:'/docs/novel/siye'},
@@ -88,18 +95,21 @@ export default defineConfig({
       },
       {
         text:'Fovlin',
+        collapsed:true,
         items:[
           {text:'关于 Fovlin', link:'/docs/fovlin/about-me'},
         ]
       },
       {
         text: '关于 Acovia',
+        collapsed:true,
         items: [
           { text: '社区介绍', link: '/docs/acovia-server/1-1' },
           { text: '特殊玩法', link: '/docs/acovia-server/special-gameplay' },
           { text: '更新日志', link: '/docs/acovia-server/new' },
           {
             text:'剧本',
+            collapsed:true,
             items:[
               {text: '第一幕：安息香花海', link: '/docs/acovia-server/script/1-page'},
             ]
