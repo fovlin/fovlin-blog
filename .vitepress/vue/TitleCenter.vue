@@ -5,7 +5,7 @@
 
 <template>
     <div class="div">
-        <h class="hero-title">{{ title }}</h>
+        <h1 class="hero-title">{{ title }}</h1>
         <p class="tagline">{{ tagline }}</p>
         <div id="button">
             <a id="link" href="/welcome">{{ tag }}</a>
@@ -14,6 +14,11 @@
 </template>
 
 <style scoped>
+
+p, h1 {
+    letter-spacing: 4px;
+}
+
 
 .icon {
     margin: auto 0px;

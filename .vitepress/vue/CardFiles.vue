@@ -27,13 +27,12 @@
 
 .card {
     text-align: left;
-    background-color: var(--vp-c-bg);
+    background-color: #00000000;
     border: 1.7px solid var(--vp-border-color);
     text-decoration: none;
     border-radius: 12px;
     line-height: 1.2px;
     padding: 12px 32px;
-    margin: 5px 5px;
     transition: 0.3s;
 }
 

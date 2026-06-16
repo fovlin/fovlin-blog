@@ -23,6 +23,10 @@
 
 <style scoped>
 
+p, h1 {
+    letter-spacing: 2px;
+}
+
 .icon {
     margin-left:4px;
     width: 24px;

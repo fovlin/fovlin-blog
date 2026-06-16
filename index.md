@@ -10,7 +10,9 @@ import GridTwo from './.vitepress/vue/GridTwo.vue'
 </script>
 
 
-<Title title="Acovia 档案馆" tagline="Fovlin 的文件及档案存放处" tag="浏览档案馆 ->"></Title>
+<Title title="Acovia 档案馆" tagline="记录着关于 Acovia 的一切" tag="浏览档案馆 ->"></Title>
+
+<center><h1></h1></center>
 
 ---
 
