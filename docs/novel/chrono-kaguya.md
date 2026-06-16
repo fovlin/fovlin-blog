@@ -1,6 +1,6 @@
 <script setup>
-import CardFiles from '../.vitepress/vue/CardFiles.vue'
-import GridTwo from '../.vitepress/vue/GridTwo.vue'
+import CardFiles from '../../.vitepress/vue/CardFiles.vue'
+import GridTwo from '../../.vitepress/vue/GridTwo.vue'
 </script>
 
 # 超时空辉夜姬
