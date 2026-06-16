@@ -22,53 +22,53 @@ export default defineConfig({
       {
         text: 'Linux 简明指南',
         items: [
-          { text: '选择发行版', link: '/linux-guide/choose' },
-          { text: '安装选项', link: '/linux-guide/install-linux-options' },
-          { text: '认识 Linux 系统', link: '/linux-guide/os-guide' },
-          { text: '认识命令行', link: '/linux-guide/cli-guide' },
+          { text: '选择发行版', link: '/docs/linux-guide/choose' },
+          { text: '安装选项', link: '/docs/linux-guide/install-linux-options' },
+          { text: '认识 Linux 系统', link: '/docs/linux-guide/os-guide' },
+          { text: '认识命令行', link: '/docs/linux-guide/cli-guide' },
           {
             text:'使用命令行',
             items:[
-              {text:'文件管理', link:'/linux-guide/use-cli/file-manage'},
-              {text:'I/O 重定向', link:'/linux-guide/use-cli/io-redirection'},
-              {text:'进程管理', link:'/linux-guide/use-cli/proc-manage'}
+              {text:'文件管理', link:'/docs/linux-guide/use-cli/file-manage'},
+              {text:'I/O 重定向', link:'/docs/linux-guide/use-cli/io-redirection'},
+              {text:'进程管理', link:'/docs/linux-guide/use-cli/proc-manage'}
             ]
           },
           {
             text: '配置系统',
             items: [
-              { text: '区域语言', link: '/linux-guide/configure-system/locale' },
-              { text: '用户管理', link: '/linux-guide/configure-system/user-manage' },
-              { text: '应用安装', link: '/linux-guide/configure-system/application-install-manage' },
-              { text: '双系统引导', link: '/linux-guide/configure-system/double-system-grub' },
-              { text: '磁盘管理', link: '/linux-guide/configure-system/disk-manage'},
-              { text: '更改提示符样式', link: '/linux-guide/configure-system/custom-terminal' },
-              { text: '桌面环境', link: '/linux-guide/configure-system/desktop-env-choose' },
-              { text: 'Nvidia 驱动', link: '/linux-guide/configure-system/nvidia-driver' },
-              { text: '常见问题以及解决方案', link: '/linux-guide/configure-system/solution' },
+              { text: '区域语言', link: '/docs/linux-guide/configure-system/locale' },
+              { text: '用户管理', link: '/docs/linux-guide/configure-system/user-manage' },
+              { text: '应用安装', link: '/docs/linux-guide/configure-system/application-install-manage' },
+              { text: '双系统引导', link: '/docs/linux-guide/configure-system/double-system-grub' },
+              { text: '磁盘管理', link: '/docs/linux-guide/configure-system/disk-manage'},
+              { text: '更改提示符样式', link: '/docs/linux-guide/configure-system/custom-terminal' },
+              { text: '桌面环境', link: '/docs/linux-guide/configure-system/desktop-env-choose' },
+              { text: 'Nvidia 驱动', link: '/docs/linux-guide/configure-system/nvidia-driver' },
+              { text: '常见问题以及解决方案', link: '/docs/linux-guide/configure-system/solution' },
             ]
           },
-          { text: '常见符号', link: '/linux-guide/some-symbols' },
-          { text: '快捷键', link: '/linux-guide/shortcut-key' },
+          { text: '常见符号', link: '/docs/linux-guide/some-symbols' },
+          { text: '快捷键', link: '/docs/linux-guide/shortcut-key' },
         ],
       },
       {
         text: 'Go 语言',
         items: [
-          { text:'关于本板块', link: '/golang/about-this'},
+          { text:'关于本板块', link: '/docs/golang/about-this'},
         ]
       },
       {
         text:'前端 Notes',
         items:[
-          { text: '前端基础', link: '/web-guide/web-base'},
-          { text: '网站部署', link: '/web-guide/web-release' },
+          { text: '前端基础', link: '/docs/web-guide/web-base'},
+          { text: '网站部署', link: '/docs/web-guide/web-release' },
           {
             text:"Nginx 指南",
             
             items:[
-              {text:'Nginx 搭建下载站', link: '/web-guide/nginx-guide/autoindex'},
-              {text:'Nginx 反向代理', link: '/web-guide/nginx-guide/proxy'},
+              {text:'Nginx 搭建下载站', link: '/docs/web-guide/nginx-guide/autoindex'},
+              {text:'Nginx 反向代理', link: '/docs/web-guide/nginx-guide/proxy'},
             ]
           }
         ]
@@ -76,12 +76,12 @@ export default defineConfig({
       {
         text:'放映厅',
         items:[
-          {text:'超时空辉夜姬', link:'/novel/chrono-kaguya'},
-          {text:'四叶奏合集', link:'/novel/siye'},
+          {text:'超时空辉夜姬', link:'/docs/novel/chrono-kaguya'},
+          {text:'四叶奏合集', link:'/docs/novel/siye'},
           {
             text:'源于阿古亚的故事',
             items:[
-              {text:'我们的相遇', link:'/novel/the-story-from-aqua/our-meeting.md'}
+              {text:'我们的相遇', link:'/docs/novel/the-story-from-aqua/our-meeting.md'}
             ]
           },
         ]
@@ -89,19 +89,19 @@ export default defineConfig({
       {
         text:'Fovlin',
         items:[
-          {text:'关于 Fovlin', link:'/fovlin/about-me'},
+          {text:'关于 Fovlin', link:'/docs/fovlin/about-me'},
         ]
       },
       {
         text: '关于 Acovia',
         items: [
-          { text: '社区介绍', link: '/acovia-server/1-1' },
-          { text: '特殊玩法', link: '/acovia-server/special-gameplay' },
-          { text: '更新日志', link: '/acovia-server/new' },
+          { text: '社区介绍', link: '/docs/acovia-server/1-1' },
+          { text: '特殊玩法', link: '/docs/acovia-server/special-gameplay' },
+          { text: '更新日志', link: '/docs/acovia-server/new' },
           {
             text:'剧本',
             items:[
-              {text: '第一幕：安息香花海', link: '/acovia-server/script/1-page'},
+              {text: '第一幕：安息香花海', link: '/docs/acovia-server/script/1-page'},
             ]
           },
         ]
