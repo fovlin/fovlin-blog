@@ -4,11 +4,11 @@ layout: home
 ---
 
 <script setup>
-import Title from '../.vitepress/vue/Title.vue'
-import CardFiles from '../.vitepress/vue/CardFiles.vue'
-import Picture from '../.vitepress/vue/Picture.vue'
-import PicLink from '../.vitepress/vue/PicLink.vue'
-import GridThr from '../.vitepress/vue/GridThr.vue'
+import Title from '../../.vitepress/vue/Title.vue'
+import CardFiles from '../../.vitepress/vue/CardFiles.vue'
+import Picture from '../../.vitepress/vue/Picture.vue'
+import PicLink from '../../.vitepress/vue/PicLink.vue'
+import GridThr from '../../.vitepress/vue/GridThr.vue'
 </script>
 
 <Title url="/acovia-server/1-1" other_url="https://qm.qq.com/q/5xdg6qn8nS" title="Acovia Server" tagline="原版中世纪风格 Minecraft 服务器" tag="了解服务器 ->" other_tag="加入服务器群聊"></Title>
