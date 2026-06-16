@@ -142,3 +142,7 @@ div > .title:not(a) {
     max-width: none;
   }
 }
+
+.item {
+  user-select: none;
+}

@@ -3,8 +3,11 @@
     "vitepress": "^2.0.0-alpha.17"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "allowScripts": {
+    "esbuild@0.27.7": true
   }
 }
