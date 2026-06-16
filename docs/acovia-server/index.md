@@ -17,9 +17,9 @@ import GridThr from '../../.vitepress/vue/GridThr.vue'
 
 <GridThr>
 
-<CardFiles title="Acovia 整合包" href="https://files.acovia.net/documents/acovia.zip">适用于加入 Acovia 服务器的原版轻量化整合包</CardFiles>
+<CardFiles title="Acovia 整合包" href="https://files.acovia.net/docs/documents/acovia.zip">适用于加入 Acovia 服务器的原版轻量化整合包</CardFiles>
 
-<CardFiles title="Saves" href="https://files.acovia.net/acovia-backups/">服务器的存档备份处</CardFiles>
+<CardFiles title="Saves" href="https://files.acovia.net/docs/acovia-backups/">服务器的存档备份处</CardFiles>
 
 <CardFiles title="更新日志" href="./new">记录了服务器的所有更新日志</CardFiles>
 
