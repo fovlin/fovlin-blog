@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux-guide/use-cli/file-manage.md",
-                "mode": "source",
+                "file": "linux-guide/configure-system/disk-manage.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "file-manage"
+              "title": "disk-manage"
             }
           }
         ]
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux-guide/choose.md",
+                "file": "linux-guide/configure-system/disk-manage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "choose 的出链列表"
+              "title": "disk-manage 的出链列表"
             }
           },
           {
@@ -166,7 +166,8 @@
               "title": "choose 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,11 +185,11 @@
       "bases:新建数据库": false
     }
   },
-  "active": "f96692eb862725b8",
+  "active": "72e22dffeb042890",
   "lastOpenFiles": [
+    "learn/biochemistry.md",
     "linux-guide/use-cli/file-manage.md",
     "未命名.md",
-    "learn/biochemistry.md",
     "welcome.md",
     "linux-guide/install-linux-options.md",
     "linux-guide/some-symbols.md",

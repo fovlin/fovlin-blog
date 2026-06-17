@@ -1,7 +1,7 @@
 {
-  "accentColor": "#ffc000",
+  "accentColor": "",
   "enabledCssSnippets": [],
-  "cssTheme": "Acovia-Beta",
+  "cssTheme": "Acovia",
   "theme": "obsidian",
   "showViewHeader": true
 }
