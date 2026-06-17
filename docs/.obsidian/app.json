@@ -1,3 +1,6 @@
 {
-  "livePreview": false
+  "livePreview": false,
+  "spellcheck": false,
+  "showInlineTitle": false,
+  "showUnsupportedFiles": true
 }
