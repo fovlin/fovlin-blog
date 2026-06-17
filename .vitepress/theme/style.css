@@ -126,15 +126,16 @@ div > .title:not(a) {
   background-image: linear-gradient(#181510cf, #181510cf),url(https://acovia.net/docs/acovia-server/pictures/acovia-1.png);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 960px) {
   .VPSidebar {
     padding-left: 32px !important;
   }
-}
 
-@media (min-width: 960px) {
+  .is-home {
+    background-image: linear-gradient(#181510cf, #181510cf),url(https://acovia.net/docs/acovia-server/pictures/acovia-1.png);
+  }
 
-  div > .title:not(a) {
+  div > .title {
     padding: 0px 16px !important;
   }
 

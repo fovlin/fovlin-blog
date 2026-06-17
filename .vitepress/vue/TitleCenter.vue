@@ -15,11 +15,6 @@
 
 <style scoped>
 
-p, h1 {
-    letter-spacing: 4px;
-}
-
-
 .icon {
     margin: auto 0px;
     fill:var(--vp-c-text-1);
