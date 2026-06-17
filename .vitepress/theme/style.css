@@ -124,7 +124,6 @@ div > .title:not(a) {
 .is-home {
   background: fixed;
   background-image: linear-gradient(#181510cf, #181510cf),url(https://acovia.net/docs/acovia-server/pictures/acovia-1.png);
-  padding: 0px 32px;
 }
 
 @media (min-width: 1440px) {
