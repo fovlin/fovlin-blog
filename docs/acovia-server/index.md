@@ -11,7 +11,7 @@ import PicLink from '../../.vitepress/vue/PicLink.vue'
 import GridThr from '../../.vitepress/vue/GridThr.vue'
 </script>
 
-<Title url="/docs/acovia-server/1-1" other_url="https://qm.qq.com/q/5xdg6qn8nS" title="Acovia Server" tagline="原版中世纪风格 Minecraft 服务器" tag="了解服务器 ->" other_tag="加入服务器群聊" img="assets/acovia.svg"></Title>
+<Title url="/docs/acovia-server/1-1" other_url="https://qm.qq.com/q/5xdg6qn8nS" title="Acovia Server" tagline="原版中世纪风格 Minecraft 服务器" tag="了解服务器 ->" other_tag="加入服务器群聊" img="/acovia.svg"></Title>
 
 ---
 
