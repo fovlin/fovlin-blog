@@ -63,15 +63,15 @@ export default defineConfig({
             text:"前端 Notes",
             collapsed:false,
             items:[
-              { text: "前端基础", link: "/docs/web-guide/web-base"},
-              { text: "网站部署", link: "/docs/web-guide/web-release" },
+              { text: "前端基础", link: "/docs/others/web-guide/web-base"},
+              { text: "网站部署", link: "/docs/others/web-guide/web-release" },
               {
                 text:"Nginx 指南",
                 
                 collapsed:false,
                 items:[
-                  {text:"Nginx 搭建下载站", link: "/docs/web-guide/nginx-guide/autoindex"},
-                  {text:"Nginx 反向代理", link: "/docs/web-guide/nginx-guide/proxy"},
+                  {text:"Nginx 搭建下载站", link: "/docs/others/web-guide/nginx-guide/autoindex"},
+                  {text:"Nginx 反向代理", link: "/docs/others/web-guide/nginx-guide/proxy"},
                 ]
               }
             ]
@@ -80,12 +80,12 @@ export default defineConfig({
             text:"放映厅",
             collapsed:false,
             items:[
-              {text:"超时空辉夜姬", link:"/docs/novel/chrono-kaguya"},
-              {text:"四叶奏合集", link:"/docs/novel/siye"},
+              {text:"超时空辉夜姬", link:"/docs/others/novel/chrono-kaguya"},
+              {text:"四叶奏合集", link:"/docs/others/novel/siye"},
               {
                 text:"源于阿古亚的故事",
                 items:[
-                  {text:"我们的相遇", link:"/docs/novel/the-story-from-aqua/our-meeting.md"}
+                  {text:"我们的相遇", link:"/docs/others/novel/the-story-from-aqua/our-meeting.md"}
                 ]
               },
             ]
@@ -94,21 +94,21 @@ export default defineConfig({
             text:"Fovlin",
             collapsed:false,
             items:[
-              {text:"关于 Fovlin", link:"/docs/fovlin/about-me"},
+              {text:"关于 Fovlin", link:"/docs/others/fovlin/about-me"},
             ]
           },
           {
             text: "关于 Acovia",
             collapsed:false,
             items: [
-              { text: "社区介绍", link: "/docs/acovia-server/1-1" },
-              { text: "特殊玩法", link: "/docs/acovia-server/special-gameplay" },
-              { text: "更新日志", link: "/docs/acovia-server/new" },
+              { text: "社区介绍", link: "/docs/others/acovia-server/1-1" },
+              { text: "特殊玩法", link: "/docs/others/acovia-server/special-gameplay" },
+              { text: "更新日志", link: "/docs/others/acovia-server/new" },
               {
                 text:"剧本",
                 collapsed:false,
                 items:[
-                  {text: "第一幕：安息香花海", link: "/docs/acovia-server/script/1-page"},
+                  {text: "第一幕：安息香花海", link: "/docs/others/acovia-server/script/1-page"},
                 ]
               },
             ]
