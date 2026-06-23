@@ -19,17 +19,14 @@ import GridTwo from './.vitepress/vue/GridTwo.vue'
 <GridTwo>
 
 <CardFiles title="Acovia" href="/docs/acovia-server/">更新激进的原版中世纪风格服务器</CardFiles>
-<p style="padding-left:4px; border-left:4px solid #ffaf00 ;background-color:#ffaf001f; border-radius:4px; padding:4px 6px">柏茯灵初学 Linux 时，尝试使用 Linux 系统运营的 MInecraft 服务器，目前主要面向生存中世纪风格建筑向玩法，启用正版验证，支持基岩版，最重要的是，<a href="https://files.acovia.net/acovia-backups/">存档是公开的！！！</a></p>
+<p style="border-left:4px solid #ffaf00 ;background-color:#ffaf001f; border-radius:16px; padding:12px 16px">柏茯灵初学 Linux 时，尝试使用 Linux 系统运营的 MInecraft 服务器，目前主要面向生存中世纪风格建筑向玩法，启用正版验证，支持基岩版，最重要的是，<a href="https://files.acovia.net/acovia-backups/">存档是公开的！！！</a></p>
 
 <CardFiles title="Obsidian Acovia Theme" href="https://github.com/fovlin/obsidian-acovia-theme">护眼为主的 Obsidian 主题</CardFiles>
-<p style="padding-left:4px; border-left:4px solid #ffaf00 ;background-color:#ffaf001f; border-radius:4px; padding:4px 6px">与此网站有着相同配色方案的 Obsidian 主题，在护眼方面做了深度优化，适合长时间写作。</p>
+<p style="border-left:4px solid #ffaf00 ;background-color:#ffaf001f; border-radius:16px; padding:12px 16px">与此网站有着相同配色方案的 Obsidian 主题，在护眼方面做了深度优化，适合长时间写作。</p>
+
 </GridTwo>
 
 ---
 
-<br>
-<br>
 
 <center>使用 <a href="https://vitepress.dev/">Vitepress</a> 构建 | 鲁ICP备 2025208075 号</center>
-
-<br>

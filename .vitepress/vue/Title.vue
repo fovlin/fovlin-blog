@@ -123,7 +123,7 @@ img {
         order:2;
     }
     .div {
-        margin: auto 0px;
+        align-self: center;
         order: 1;
     }
     #button {
@@ -131,6 +131,7 @@ img {
     }
     .grid-two {
         display: grid;
+        grid-gap: 0px 0px;
         grid-template-columns: 1.2fr 1fr;
     }
 
