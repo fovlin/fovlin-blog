@@ -1,5 +1,5 @@
 <script setup>
-    defineProps(['title','tagline','tag','other_tag','url','other_url'])
+    defineProps(['title','tagline','tag','other_tag','url','other_url','img'])
     import TableTwo from './GridTwo.vue';
 </script>
 
@@ -16,16 +16,12 @@
             </div>
         </div>
         <div id="img-2">
-            <img src="/assets/acovia.svg">
+            <img v-bind:src="img">
         </div>
     </TableTwo>
 </template>
 
 <style scoped>
-
-p, h1 {
-    letter-spacing: 2px;
-}
 
 .icon {
     margin-left:4px;

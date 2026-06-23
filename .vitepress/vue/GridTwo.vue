@@ -19,12 +19,9 @@
 
     .grid-two {
         text-align: left;
-        grid-gap: 12px 12px;
-        grid-template-columns: 1fr 1fr;
+        grid-gap: 24px 24px;
+        grid-template-columns: 1fr 2fr;
         grid-template-rows: auto auto;
-    }
-
-    .VPHome .grid-two {
     }
 }
 </style>

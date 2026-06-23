@@ -3,24 +3,27 @@
 layout: home
 ---
 <script setup>
-import Title from './.vitepress/vue/TitleCenter.vue'
+import Title from './.vitepress/vue/Title.vue'
 import CardFiles from './.vitepress/vue/CardFiles.vue'
 import GridThr from './.vitepress/vue/GridThr.vue'
 import GridTwo from './.vitepress/vue/GridTwo.vue'
 </script>
 
 
-<Title title="Acovia 档案馆" tagline="记录着关于 Acovia 的一切" tag="浏览档案馆 ->"></Title>
+<Title url="/welcome" other_url="https://qm.qq.com/q/uvrNnH4bmg" title="Fovlin 档案册" tagline="记录了一些柏茯灵学习计算机的笔记，以及正在运营的一些项目" tag="翻阅 ->" other_tag="添加我的 QQ 好友" img="/fovlin.png"></Title>
 
-<center><h1></h1></center>
+<center><h1>项目</h1></center>
 
 ---
 
-<GridThr>
+<GridTwo>
+
 <CardFiles title="Acovia" href="/docs/acovia-server/">更新激进的原版中世纪风格服务器</CardFiles>
-<CardFiles title="Fovlin" href="https://acovia.net/docs/fovlin/about-me.html">Fovlin 的个人页面</CardFiles>
-<CardFiles title="文件" href="https://files.acovia.net">档案馆文件存放处</CardFiles>
-</GridThr>
+<p style="padding-left:4px; border-left:4px solid #ffaf00 ;background-color:#ffaf001f; border-radius:4px; padding:4px 6px">柏茯灵初学 Linux 时，尝试使用 Linux 系统运营的 MInecraft 服务器，目前主要面向生存中世纪风格建筑向玩法，启用正版验证，支持基岩版，最重要的是，<a href="https://files.acovia.net/acovia-backups/">存档是公开的！！！</a></p>
+
+<CardFiles title="Obsidian Acovia Theme" href="https://github.com/fovlin/obsidian-acovia-theme">护眼为主的 Obsidian 主题</CardFiles>
+<p style="padding-left:4px; border-left:4px solid #ffaf00 ;background-color:#ffaf001f; border-radius:4px; padding:4px 6px">与此网站有着相同配色方案的 Obsidian 主题，在护眼方面做了深度优化，适合长时间写作。</p>
+</GridTwo>
 
 ---
 

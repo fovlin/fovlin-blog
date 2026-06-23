@@ -42,7 +42,7 @@
 }
 
 .title {
-    font-weight: 800;
+    font-weight: bold;
     display: flex;
     font-size: 20px;
     color: var(--vp-c-text-1);
@@ -50,7 +50,7 @@
 
 .text {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0px;
     margin-bottom: 16px;
     font-weight: 400;
