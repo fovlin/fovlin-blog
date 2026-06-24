@@ -8,7 +8,7 @@
   --vp-c-yellow-2: #df8f1f;
   --vp-c-yellow-3: #ffaf00;
 
-  --vp-c-yellow-soft: rgba(234, 179, 8, 0.14);
+  --vp-c-yellow-soft: #af7f003f;
 
   --vp-c-brand-1: var(--vp-c-yellow-1); /*文字强调色*/
   --vp-c-brand-2: var(--vp-c-yellow-2);
@@ -17,20 +17,20 @@
 }
 
 code {
-  font-family: 'Cascadia code','Monospace','menlo';
+  font-family: 'Cascadia code','Monospace','menlo', 'Fira code'
 }
 
 .dark {
   --vp-c-gray-1: #5f5a4f;
   --vp-c-gray-2: #4f4a3f;
   --vp-c-gray-3: #3f3a2f;
-  --vp-c-gray-soft: rgba(151, 117, 56, 0.16); /* `space` 背景 */
 
   --vp-c-yellow-1: #ffaf00;
   --vp-c-yellow-2: #df8f1f;
   --vp-c-yellow-3: #af6f0f;
 
-  --vp-c-yellow-soft: rgba(234, 179, 8, 0.16);
+  --vp-c-yellow-soft: #ffaf001f;
+
 }
 
 
