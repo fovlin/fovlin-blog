@@ -1,12 +1,12 @@
 :root {
-  --vp-c-gray-1: #dfd3c0;
-  --vp-c-gray-2: #bfb3a0;
-  --vp-c-gray-3: #cfc3b0;
+  --vp-c-gray-1: #5f564f;
+  --vp-c-gray-2: #7f756f;
+  --vp-c-gray-3: #afa59f;
   --vp-c-gray-soft: rgba(169, 150, 110, 0.14);
 
-  --vp-c-acovia-1: #af4f2f;
-  --vp-c-acovia-2: #cf6f2f;
-  --vp-c-acovia-3: #ff7f3f;
+  --vp-c-acovia-1: #af3f00;
+  --vp-c-acovia-2: #cf4f00;
+  --vp-c-acovia-3: #ff5f00;
 
   --vp-c-acovia-soft: #af7f003f;
 
@@ -21,61 +21,51 @@ code {
 }
 
 .dark {
-  --vp-c-gray-1: #5f3f2f;
-  --vp-c-gray-2: #4f3a2a;
-  --vp-c-gray-3: #3f2f1f;
+  --vp-c-gray-1: #afa59f;
+  --vp-c-gray-2: #7f756f;
+  --vp-c-gray-3: #3f352f;
 
-  --vp-c-acovia-1: #ff7f3f;
-  --vp-c-acovia-2: #cf6f2f;
-  --vp-c-acovia-3: #af5f2a;
+  --vp-c-acovia-1: #ff5f00;
+  --vp-c-acovia-2: #cf4f00;
+  --vp-c-acovia-3: #af3f00;
 
-  --vp-c-acovia-soft: #ffaf001f;
+  --vp-c-acovia-soft: #ff7f001f;
 
 }
 
 
 :root {
-  --vp-c-bg-f: #fff4df;
-  --vp-c-bg: #efe4cf;
-  --vp-c-bg-alt: #dfd4bf;
+  --vp-c-bg: #efe7e0;
+  --vp-c-bg-alt: #dfd7d0;
   --vp-c-bg-elv: #ffffff;
-  --vp-c-bg-soft: #f6f6f7;
+  --vp-c-bg-soft: #ffffff;
   --vp-border-color:#3f3d3a;
 }
 
 .dark {
-  --vp-c-bg-f: #0f0a00;
-  --vp-c-bg: #181510;     /*主体文档背景*/
-  --vp-c-bg-alt: #1f1d1a; /*侧边栏背景*/
-  --vp-c-bg-elv: #3f3d3a;
-  --vp-c-bg-soft: #2f2a1f; /*表格副背景*/
-  --vp-border-color: #cfcaaf;
+  --vp-c-bg: #181310;     /*主体文档背景*/
+  --vp-c-bg-alt: #1f1c1a; /*侧边栏背景*/
+  --vp-c-bg-elv: #2f2c2a;
+  --vp-c-bg-soft: #2f2c2a; /*表格副背景*/
+  --vp-border-color: var(--vp-c-gray-1);
 }
 
 :root {
-  --vp-c-border: #cfaf6f;
-  --vp-c-divider: #cfaf6f;
-  --vp-c-gutter: #cfaf6f;
-}
-
-.dark {
-  --vp-c-border: #4f4a3f;
-  --vp-c-divider: #4f4a3f;
-  --vp-c-gutter: #4f4a3f;
+  --vp-c-border: var(--vp-c-gray-1);
+  --vp-c-divider: var(--vp-c-gray-2);
+  --vp-c-gutter: var(--vp-c-gray-3);
 }
 
 :root {
-  --vp-c-text-1: #1f1910;
-  --vp-c-text-2: #3f392f;
-  --vp-c-text-3: #1f1910;
-  --vp-c-custom-text: #6f4f00;
+  --vp-c-text-1: #1f150f;
+  --vp-c-text-2: #3f352f;
+  --vp-c-text-3: #1f150f;
 }
 
 .dark {
-  --vp-c-text-1: #efdfbf;
-  --vp-c-text-2: #cfbf9f;
-  --vp-c-text-3: #cfbf9f;
-  --vp-c-custom-text: #efcf7f;
+  --vp-c-text-1: #efdcd0;
+  --vp-c-text-2: #cfbcb0;
+  --vp-c-text-3: #cfbcb0;
 }
 
 :root {
@@ -109,7 +99,7 @@ body p {
 .VPSidebarItem.level-5.is-active > .item .link > .text {
   border-left: 4px solid var(--vp-c-acovia-1);
   padding-left: 12px;
-  background-color: #ffaf001f;
+  background-color: var(--vp-c-acovia-soft);
   border-radius: 16px;
 }
 

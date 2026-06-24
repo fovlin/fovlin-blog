@@ -19,16 +19,16 @@
     margin-right: 12px;
     align-self: center;
     height: 32px;
-    border: 1.2px solid var(--vp-c-yellow-1);
+    border: 1.2px solid var(--vp-c-acovia-1);
     padding: 5px;
     border-radius: 8px;
-    fill: var(--vp-c-yellow-1);
+    fill: var(--vp-c-acovia-1);
 }
 
 .card {
     text-align: left;
     background-color: #00000000;
-    border: 1.7px solid var(--vp-border-color);
+    border: 1.3px solid var(--vp-border-color);
     text-decoration: none;
     border-radius: 12px;
     line-height: 1.2px;
@@ -38,7 +38,7 @@
 
 .card:hover {
     background-color: rgba(256, 160, 0, 0.15);
-    border: 1.7px solid var(--vp-c-yellow-1);
+    border: 1.3px solid var(--vp-c-acovia-1);
 }
 
 .title {

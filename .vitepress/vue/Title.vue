@@ -52,7 +52,7 @@ img {
 .hero-title {
     font-weight: bolder;
     font-size: 28px;
-    color: var(--vp-c-yellow-1);
+    color: var(--vp-c-acovia-1);
 }
 
 .tagline {
@@ -69,7 +69,7 @@ img {
 }
 
 #link {
-    background-color: var(--vp-c-yellow-1);
+    background-color: var(--vp-c-acovia-1);
     display: flex;
     padding: 16px 16px;
     text-decoration: none;
@@ -96,11 +96,11 @@ img {
 }
 
 #other-link:hover {
-    color: var(--vp-c-yellow-1);
+    color: var(--vp-c-acovia-1);
 }
 
 #other-link:hover > .icon {
-    fill: var(--vp-c-yellow-1);
+    fill: var(--vp-c-acovia-1);
 }
 
 @media (min-width: 960px){
