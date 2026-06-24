@@ -81,13 +81,6 @@ export default defineConfig({
             collapsed:false,
             items:[
               {text:"超时空辉夜姬", link:"/docs/others/novel/chrono-kaguya"},
-              {text:"四叶奏合集", link:"/docs/others/novel/siye"},
-              {
-                text:"源于阿古亚的故事",
-                items:[
-                  {text:"我们的相遇", link:"/docs/others/novel/the-story-from-aqua/our-meeting.md"}
-                ]
-              },
             ]
           },
           {
