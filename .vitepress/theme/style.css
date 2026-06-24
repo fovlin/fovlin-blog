@@ -2,7 +2,7 @@
   --vp-c-gray-1: #5f564f;
   --vp-c-gray-2: #7f756f;
   --vp-c-gray-3: #afa59f;
-  --vp-c-gray-soft: rgba(169, 150, 110, 0.14);
+  --vp-c-gray-soft: #af3f001f;
 
   --vp-c-acovia-1: #af3f00;
   --vp-c-acovia-2: #cf4f00;
@@ -24,6 +24,7 @@ code {
   --vp-c-gray-1: #afa59f;
   --vp-c-gray-2: #7f756f;
   --vp-c-gray-3: #3f352f;
+  --vp-c-gray-soft: #ff5f001f;
 
   --vp-c-acovia-1: #ff5f00;
   --vp-c-acovia-2: #cf4f00;

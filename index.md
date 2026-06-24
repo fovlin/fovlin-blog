@@ -18,7 +18,7 @@ import GridTwo from './.vitepress/vue/GridTwo.vue'
 
 <GridTwo>
 
-<CardFiles title="Acovia" href="/docs/acovia-server/">更新激进的原版中世纪风格服务器</CardFiles>
+<CardFiles title="Acovia" href="/docs/others/acovia-server/">更新激进的原版中世纪风格服务器</CardFiles>
 <p style="border-left:4px solid var(--vp-c-acovia-1) ;background-color:var(--vp-c-acovia-soft); border-radius:16px; padding:12px 16px">柏茯灵初学 Linux 时，尝试使用 Linux 系统运营的 MInecraft 服务器，目前主要面向生存中世纪风格建筑向玩法，启用正版验证，支持基岩版，最重要的是，<a href="https://files.acovia.net/acovia-backups/">存档是公开的！！！</a></p>
 
 <CardFiles title="Obsidian Acovia Theme" href="https://github.com/fovlin/obsidian-acovia-theme">护眼为主的 Obsidian 主题</CardFiles>
