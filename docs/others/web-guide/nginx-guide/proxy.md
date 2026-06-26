@@ -20,7 +20,7 @@ http {
 
 这样当用户访问 `https://proxy.example.com:8080` 时，会被跳转到 `https://target.example.com`。
 
-同时还可以借助 `location` 字段，实现在特定 URL 跳转：
+同时还可以借助 `location` 字段，实现对特定的 URL 请求跳转：
 
 仅需将 `location / {}` 改为 `location /proxy/ {}`，这样当用户访问 `https://proxy.example.com:8080/proxy` 时，会被跳转到 `https://target.example.com`。
 
@@ -83,4 +83,4 @@ stream {
 }
 ```
 
-这样所有在 `acovia.net:29185` 的 tcp 流量会被转发在本机的 13157 端口。
+这样所有在 `acovia.net:29185` 的 tcp 流量会被转发本机的 13157 端口。

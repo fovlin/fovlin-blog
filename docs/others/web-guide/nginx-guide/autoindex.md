@@ -40,7 +40,7 @@ http {
 
 ## Autoindex 页面美化
 
-但是默认页面浇较丑，这是 Nginx 内置模块在接受客户端请求时自动生成的页面，无法直接通过 html 改变布局，改变外观通常有以下 2 种方法。
+但是默认页面较丑，这是 Nginx 内置模块在接受客户端请求时自动生成的页面，无法直接通过 html 改变布局，改变外观通常有以下 2 种方法。
 
 ### 使用 add_before_body 或 add_after_body 进行美化
 
@@ -104,6 +104,7 @@ html,body {
     font-weight: bold;
     font-family: 'Cascadia code','menlo';
 }
+</style>
 ```
 
 回到页面刷新后可以看到以下效果：
