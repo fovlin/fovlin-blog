@@ -3,7 +3,7 @@
 Use follow command to clone this repo.
 
 ```bash
-git clone https://github.com/fovlin/acovia/website.git
+git clone https://github.com/fovlin/acovia/acovia-website.git
 ```
 
 Then install dependencies.
