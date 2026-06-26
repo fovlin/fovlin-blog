@@ -11,15 +11,15 @@ import PicLink from '../../../.vitepress/vue/PicLink.vue'
 import GridThr from '../../../.vitepress/vue/GridThr.vue'
 </script>
 
-<Title url="/docs/acovia-server/1-1" other_url="https://qm.qq.com/q/5xdg6qn8nS" title="Acovia Server" tagline="原版中世纪风格 Minecraft 服务器" tag="了解服务器 ->" other_tag="加入服务器群聊" img="/acovia.svg"></Title>
+<Title url="/docs/others/acovia-server/1-1" other_url="https://qm.qq.com/q/5xdg6qn8nS" title="Acovia Server" tagline="原版中世纪风格 Minecraft 服务器" tag="了解服务器 ->" other_tag="加入服务器群聊" img="/acovia.svg"></Title>
 
 ---
 
 <GridThr>
 
-<CardFiles title="Acovia 整合包" href="https://files.acovia.net/docs/documents/acovia.zip">适用于加入 Acovia 服务器的原版轻量化整合包</CardFiles>
+<CardFiles title="Acovia 整合包" href="https://files.acovia.net/documents/acovia.zip">适用于加入 Acovia 服务器的原版轻量化整合包</CardFiles>
 
-<CardFiles title="Saves" href="https://files.acovia.net/docs/acovia-backups/">服务器的存档备份处</CardFiles>
+<CardFiles title="Saves" href="https://files.acovia.net/acovia-backups/">服务器的存档备份处</CardFiles>
 
 <CardFiles title="更新日志" href="./new">记录了服务器的所有更新日志</CardFiles>
 
