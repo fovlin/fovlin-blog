@@ -33,6 +33,7 @@
     border-radius: 12px;
     line-height: 1.2px;
     padding: 12px 32px;
+		margin: 12px 4px;
     transition: 0.3s;
 }
 
