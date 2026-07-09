@@ -1,5 +1,5 @@
 <script setup>
-import CardFiles from '../../../.vitepress/vue/CardFiles.vue'
+import CardFiles from '../../../.vitepress/vue/LinkCard.vue'
 import GridTwo from '../../../.vitepress/vue/GridTwo.vue'
 </script>
 

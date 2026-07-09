@@ -55,11 +55,11 @@ export default defineConfig({
           { text: '快捷键', link: '/docs/linux-guide/shortcut-key' },
         ],
       },
-      {
-        text: '杂谈',
-        items: [
-        ]
-      },
+      // {
+      //   text: '杂谈',
+      //   items: [
+      //   ]
+      // },
       {
         text:'其他',
         collapsed:true,
