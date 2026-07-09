@@ -20,7 +20,7 @@
     .grid-two {
         text-align: left;
         grid-gap: 16px 24px;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
     }
 }

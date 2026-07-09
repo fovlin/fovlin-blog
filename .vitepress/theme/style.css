@@ -37,18 +37,18 @@ code {
 
 
 :root {
-  --vp-c-bg: #efeae0;
-  --vp-c-bg-alt: #dfdad0;
+  --vp-c-bg: #fffefc;
+  --vp-c-bg-alt: #efeeec;
   --vp-c-bg-elv: #ffffff;
   --vp-c-bg-soft: #ffffff;
   --vp-border-color:#3f3d3a;
 }
 
 .dark {
-  --vp-c-bg: #181510;     /*主体文档背景*/
-  --vp-c-bg-alt: #282520; /*侧边栏背景*/
-  --vp-c-bg-elv: #383530;
-  --vp-c-bg-soft: #383530; /*表格副背景*/
+  --vp-c-bg: #181715;     /*主体文档背景*/
+  --vp-c-bg-alt: #282725; /*侧边栏背景*/
+  --vp-c-bg-elv: #383735;
+  --vp-c-bg-soft: #383735; /*表格副背景*/
   --vp-border-color: #7f7a70;
 }
 
@@ -59,15 +59,15 @@ code {
 }
 
 :root {
-  --vp-c-text-1: #1f1a0f;
-  --vp-c-text-2: #3f3a2f;
-  --vp-c-text-3: #1f1a0f;
+  --vp-c-text-1: #080705;
+  --vp-c-text-2: #282725;
+  --vp-c-text-3: #181715;
 }
 
 .dark {
-  --vp-c-text-1: #efe3d0;
-  --vp-c-text-2: #cfc3b0;
-  --vp-c-text-3: #cfc3b0;
+  --vp-c-text-1: #fff5e0;
+  --vp-c-text-2: #dfd5c0;
+  --vp-c-text-3: #dfd5c0;
 }
 
 :root {

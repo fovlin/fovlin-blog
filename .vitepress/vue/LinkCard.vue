@@ -28,18 +28,19 @@
 .card {
     text-align: left;
     background-color: #00000000;
-    border: 1.3px solid var(--vp-border-color);
+    border: 1.2px solid var(--vp-border-color);
     text-decoration: none;
     border-radius: 12px;
     line-height: 1.2px;
     padding: 12px 32px;
-		margin: 12px 4px;
+	margin: 12px 4px;
     transition: 0.3s;
 }
 
 .card:hover {
     background-color: rgba(256, 160, 0, 0.15);
     border: 1.3px solid var(--vp-c-acovia-1);
+    /* box-shadow: 0px 0px 16px #ffaf00; */
 }
 
 .title {

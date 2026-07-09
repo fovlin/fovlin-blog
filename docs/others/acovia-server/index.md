@@ -5,7 +5,7 @@ layout: home
 
 <script setup>
 import Title from '../../../.vitepress/vue/Title.vue'
-import CardFiles from '../../../.vitepress/vue/CardFiles.vue'
+import CardFiles from '../../../.vitepress/vue/LinkCard.vue'
 import Picture from '../../../.vitepress/vue/Picture.vue'
 import PicLink from '../../../.vitepress/vue/PicLink.vue'
 import GridThr from '../../../.vitepress/vue/GridThr.vue'
