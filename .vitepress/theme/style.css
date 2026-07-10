@@ -17,10 +17,6 @@
   --vp-c-brand-soft: var(--vp-c-acovia-soft);
 }
 
-code {
-  font-family: 'Cascadia code','Monospace','menlo', 'Fira code'
-}
-
 .dark {
   --vp-c-gray-1: #5f5a4f;
   --vp-c-gray-2: #7f7a6f;
@@ -65,9 +61,9 @@ code {
 }
 
 .dark {
-  --vp-c-text-1: #fff5e0;
-  --vp-c-text-2: #dfd5c0;
-  --vp-c-text-3: #dfd5c0;
+  --vp-c-text-1: #fffaf0;
+  --vp-c-text-2: #dfdad0;
+  --vp-c-text-3: #dfdad0;
 }
 
 :root {

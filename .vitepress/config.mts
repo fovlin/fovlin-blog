@@ -5,7 +5,9 @@ export default defineConfig({
   appearance:'dark',
   description: 'Fovlin 的档案存放处',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    editLink: {
+      pattern: 'https://github.com/fovlin/acovia-website'
+    },
     logo:'/star.svg',
     outline: {
       level:2,
@@ -51,15 +53,9 @@ export default defineConfig({
               { text: '常见问题以及解决方案', link: '/docs/linux-guide/configure-system/solution' },
             ]
           },
-          { text: '常见符号', link: '/docs/linux-guide/some-symbols' },
           { text: '快捷键', link: '/docs/linux-guide/shortcut-key' },
         ],
       },
-      // {
-      //   text: '杂谈',
-      //   items: [
-      //   ]
-      // },
       {
         text:'其他',
         collapsed:true,
@@ -79,13 +75,6 @@ export default defineConfig({
                   {text:'Nginx 反向代理', link: '/docs/others/web-guide/nginx-guide/proxy'},
                 ]
               }
-            ]
-          },
-          {
-            text:'放映厅',
-            collapsed:false,
-            items:[
-              {text:'超时空辉夜姬', link:'/docs/others/novel/chrono-kaguya'},
             ]
           },
           {

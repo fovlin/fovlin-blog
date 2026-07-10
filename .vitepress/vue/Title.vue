@@ -5,7 +5,7 @@
 
 <template>
     <TableTwo>
-        <div class="div">
+        <div id="box-1">
             <h class="hero-title">{{ title }}</h>
             <p class="tagline">{{ tagline }}</p>
             <div id="button">
@@ -15,7 +15,7 @@
                 </a>
             </div>
         </div>
-        <div id="img-2">
+        <div id="box-2">
             <img v-bind:src="img">
         </div>
     </TableTwo>
@@ -31,21 +31,19 @@
     fill:var(--vp-c-text-1);
 }
 
-#img-2 {
+#box-2 {
     order: 1;
     display: flex;
-    margin: 12px 0px;
-    padding: 12px 12px;
+    padding: 64px 64px;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(circle closest-side,#ff6fff3f,#af3fff00);
 }
 
 img {
     width: 80%;
 }
 
-.div {
+#box-1 {
     order: 2;
 }
 
@@ -114,15 +112,14 @@ img {
         padding: 16px 48px;
     }
 
-    #img-2 {
+    #box-2 {
         transform: scale(1);
         margin: 0px 0px;
         overflow: visible;
         background-position: center;
-        background-image: radial-gradient(circle closest-side,#ff6fff3f,#af3fff00);
         order:2;
     }
-    .div {
+    #box-1 {
         align-self: center;
         order: 1;
     }
