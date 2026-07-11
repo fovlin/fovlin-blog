@@ -10,7 +10,7 @@ import GridTwo from './.vitepress/vue/GridTwo.vue'
 </script>
 
 
-<Title url="/welcome" other_url="https://qm.qq.com/q/uvrNnH4bmg" title="Fovlin 档案册" tagline='Hi，我叫 Fovlin，可以叫我柏茯灵！一个化学生兼 JavaAcript、GoLang 学习者，喜欢二次元、音乐、计算机、Minecraft。' tag="翻阅 ->" other_tag="添加我的 QQ 好友" img="/fovlin.png"></Title>
+<Title url="/welcome" other_url="https://qm.qq.com/q/uvrNnH4bmg" title="Fovlin 档案册" tagline='Hi，我叫 Fovlin，可以叫我柏茯灵！一个化学生兼 JavaScript、GoLang 学习者，喜欢二次元、音乐、计算机、Minecraft。' tag="翻阅 ->" other_tag="添加我的 QQ 好友" img="/fovlin.png"></Title>
 
 <center><h1>项目</h1></center>
 
