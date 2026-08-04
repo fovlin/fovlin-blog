@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.19"
+    "vitepress": "^2.0.0-alpha.19",
+    "wrangler": "^4.118.0"
   },
   "scripts": {
     "dev": "vitepress dev",
