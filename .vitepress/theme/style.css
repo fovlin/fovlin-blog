@@ -1,5 +1,13 @@
+@font-face {
+  font-family: "HYWenHei";
+  src: url("/HYWenHei.ttf");
+}
+
 :root {
-  --vp-font-family-base: 'Noto Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --vp-font-family-base: 'HYWenHei', monospace, system-ui, 'Inter', -apple-system, BlinkMacSystemFont, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Fira Code', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+
   --vp-c-gray-1: #5f5a4f;
   --vp-c-gray-2: #7f7a6f;
   --vp-c-gray-3: #afaa9f;
