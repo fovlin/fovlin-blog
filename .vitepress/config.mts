@@ -84,22 +84,6 @@ export default defineConfig({
               {text:'关于 Fovlin', link:'/docs/others/fovlin/about-me'},
             ]
           },
-          {
-            text: '关于 Acovia',
-            collapsed:false,
-            items: [
-              { text: '社区介绍', link: '/docs/others/acovia-server/1-1' },
-              { text: '特殊玩法', link: '/docs/others/acovia-server/special-gameplay' },
-              { text: '更新日志', link: '/docs/others/acovia-server/new' },
-              {
-                text:'剧本',
-                collapsed:false,
-                items:[
-                  {text: '第一幕：安息香花海', link: '/docs/others/acovia-server/script/1-page'},
-                ]
-              },
-            ]
-          },
         ]
       },
     ],

@@ -31,7 +31,7 @@ import Connect from './.vitepress/vue/Connect.vue'
 
 <GridTwo>
 
-<CardFiles title="Acovia" href="/docs/others/acovia-server/">更新激进的原版中世纪风格服务器，启用正版验证，支持基岩版，最重要的是，<a href="https://files.acovia.net/acovia-backups/">存档是公开的！！！</a></CardFiles>
+<CardFiles title="Acovia" href="https://acovia.net">更新激进的原版中世纪风格服务器，启用正版验证，支持基岩版，最重要的是，<a href="https://files.acovia.net/acovia-backups/">存档是公开的！！！</a></CardFiles>
 
 <CardFiles title="Obsidian Acovia Theme" href="https://github.com/fovlin/obsidian-acovia-theme">与此网站有着相同配色方案的 Obsidian 主题，在护眼方面做了深度优化，适合长时间写作。</CardFiles>
 
