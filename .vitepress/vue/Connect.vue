@@ -27,7 +27,9 @@
     }
 
     .connect-grid:hover > .name {
-        color:#ffaf00
+        color: var(--vp-c-brand-1);
+        background-color: var(--vp-c-brand-soft);
+        border: 0.5px solid var(--vp-c-brand-1);
     }
 
     .connect-grid:hover > .connect::before {
@@ -42,12 +44,13 @@
         min-width: 120px;
         border-radius: 12px;
         background-color: var(--vp-c-bg-alt);
+        border: 0.5px solid var(--vp-c-bg-alt);
         text-align: center;
     }
 
     .connect {
         position: relative;
-        border-left: 5px solid #ffaf00;
+        border-left: 5px solid var(--vp-c-brand-1);
         padding-left: 16px;
     }
 
@@ -61,7 +64,7 @@
         top: 0;
         left: 0;
         width: 0;
-        background: linear-gradient(to right, #ffaf001f 50%, #ffaf0000 95%);
+        background: linear-gradient(to right, var(--vp-c-brand-soft) 45%, #ffaf0000 90%);
     }
 
 @media (max-width: 640px){
