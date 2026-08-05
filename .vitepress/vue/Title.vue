@@ -34,9 +34,13 @@
 #box-2 {
     order: -1;
     display: flex;
-    padding: 64px 64px;
     justify-content: center;
     align-items: center;
+}
+
+img {
+    height: 256px;
+    padding: 32px 0px;
 }
 
 .hero-title {
@@ -49,7 +53,6 @@
     font-size: 20px;
     color: var(--vp-c-text-1)
 }
-
 
 #button {
     padding: 16px 0px;
@@ -110,7 +113,10 @@
 
     #box-2{
         order: 1;
-        padding: 96px 96px;
+    }
+
+    img {
+        height: 320px;
     }
 
     #button {
