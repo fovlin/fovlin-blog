@@ -13,6 +13,8 @@
   --vp-c-brand-2: var(--vp-c-acovia-2);
   --vp-c-brand-3: var(--vp-c-acovia-3);
   --vp-c-brand-soft: var(--vp-c-acovia-soft);
+
+  --vp-c-gray-soft: var(--vp-c-acovia-soft);
 }
 
 :root {
@@ -37,7 +39,7 @@
   --vp-c-gray-1: #5f5a4f;
   --vp-c-gray-2: #7f7a6f;
   --vp-c-gray-3: #9f9a8f;
-  
+
   --vp-c-acovia-1: #ffaf00;
   --vp-c-acovia-2: #cf8f00;
   --vp-c-acovia-3: #af6f00;
