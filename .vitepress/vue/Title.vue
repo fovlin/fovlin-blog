@@ -32,19 +32,11 @@
 }
 
 #box-2 {
-    order: 1;
+    order: -1;
     display: flex;
     padding: 64px 64px;
     justify-content: center;
     align-items: center;
-}
-
-img {
-    width: 80%;
-}
-
-#box-1 {
-    order: 2;
 }
 
 .hero-title {
@@ -112,17 +104,15 @@ img {
         padding: 16px 48px;
     }
 
-    #box-2 {
-        transform: scale(1);
-        margin: 0px 0px;
-        overflow: visible;
-        background-position: center;
-        order:2;
-    }
     #box-1 {
         align-self: center;
-        order: 1;
     }
+
+    #box-2{
+        order: 1;
+        padding: 96px 96px;
+    }
+
     #button {
         justify-content: left;
     }

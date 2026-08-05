@@ -2,19 +2,32 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 ---
+
 <script setup>
 import Title from './.vitepress/vue/Title.vue'
 import CardFiles from './.vitepress/vue/LinkCard.vue'
+import Block from './.vitepress/vue/Block.vue'
 import GridThr from './.vitepress/vue/GridThr.vue'
 import GridTwo from './.vitepress/vue/GridTwo.vue'
+import Connect from './.vitepress/vue/Connect.vue'
 </script>
 
 
 <Title url="/welcome" other_url="https://qm.qq.com/q/uvrNnH4bmg" title="Fovlin 档案册" tagline='Hi，我叫 Fovlin，可以叫我柏茯灵！一个化学生兼 JavaScript、GoLang 学习者，喜欢二次元、音乐、计算机、Minecraft。' tag="翻阅 ->" other_tag="添加我的 QQ 好友" img="/fovlin.png"></Title>
 
-<center><h1>项目</h1></center>
+<Block title="联系方式">
 
----
+<Connect name="邮箱-1" connect="fovlin@163.com"/>
+
+<Connect name="邮箱-2" connect="user.fovlin@outlook.com" />
+
+<Connect name="QQ" connect="339853356" url="https://qm.qq.com/q/uvrNnH4bmg"/>
+
+<Connect name="微信" connect="BFling_06"/>
+
+</Block>
+
+<Block title="项目">
 
 <GridTwo>
 
@@ -24,8 +37,6 @@ import GridTwo from './.vitepress/vue/GridTwo.vue'
 
 </GridTwo>
 
-<br></br>
-<br></br>
-<br></br>
+</Block>
 
-<center>使用 <a href="https://vitepress.dev/">Vitepress</a> 构建 | 鲁ICP备 2025208075 号</center>
+<center>使用 <a href="https://vitepress.dev/">Vitepress</a> 构建</center>

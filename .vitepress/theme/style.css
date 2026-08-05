@@ -4,6 +4,7 @@
 }
 
 :root {
+
   --vp-font-family-base: 'HYWenHei', monospace, system-ui, 'Inter', -apple-system, BlinkMacSystemFont, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
   --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Fira Code', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
@@ -131,4 +132,8 @@ div > .title:not(a) {
 
 .item {
   user-select: none;
+}
+
+.caret-icon {
+  font-size: 24px !important;
 }
