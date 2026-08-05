@@ -29,7 +29,7 @@
     .connect-grid:hover > .name {
         color: var(--vp-c-brand-1);
         background-color: var(--vp-c-brand-soft);
-        border: 0.5px solid var(--vp-c-brand-1);
+        border: 1.2px solid var(--vp-c-brand-1);
     }
 
     .connect-grid:hover > .connect::before {
@@ -44,7 +44,7 @@
         min-width: 120px;
         border-radius: 12px;
         background-color: var(--vp-c-bg-alt);
-        border: 0.5px solid var(--vp-c-bg-alt);
+        border: 1.2px solid var(--vp-c-bg-alt);
         text-align: center;
     }
 
