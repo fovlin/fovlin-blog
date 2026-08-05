@@ -41,7 +41,7 @@
         margin-right: 12px;
         min-width: 120px;
         border-radius: 12px;
-        background-color: var(--vp-c-bg-soft);
+        background-color: var(--vp-c-bg-alt);
         text-align: center;
     }
 
