@@ -41,10 +41,10 @@
 
 
 :root {
-  --vp-c-bg: #fffefc;
-  --vp-c-bg-alt: #efeeec;
+  --vp-c-bg: #fffdfa;
+  --vp-c-bg-alt: #efedea;
   --vp-c-bg-elv: #ffffff;
-  --vp-c-bg-soft: #ffffff;
+  --vp-c-bg-soft: #efedea;
   --vp-border-color:#3f3d3a;
 }
 
@@ -52,7 +52,7 @@
   --vp-c-bg: #181715;     /*主体文档背景*/
   --vp-c-bg-alt: #282725; /*侧边栏背景*/
   --vp-c-bg-elv: #383735;
-  --vp-c-bg-soft: #383735; /*表格副背景*/
+  --vp-c-bg-soft: #282725; /*表格副背景*/
   --vp-border-color: #7f7a70;
 }
 
