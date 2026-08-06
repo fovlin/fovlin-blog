@@ -135,3 +135,7 @@ div > .title:not(a) {
 .caret-icon {
   font-size: 24px !important;
 }
+
+th, td {
+  font-family: 'Cascadia Code', 'Fira Code', monospace !important;
+}
