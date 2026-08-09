@@ -79,7 +79,7 @@
 
 /*===不稳定的类===*/
 
-/*存在大量!important*/
+/* 由于 vitepress 各元素 css 权重较高，故下列 css 中存在大量 !important */
 
 h1,h2,h3,h4,h5,h6 {
   color: var(--vp-c-text-1);
@@ -115,27 +115,19 @@ div > .title:not(a) {
 @media (min-width: 960px) {
 
   .VPSidebar {
-    padding: 64px 48px !important;
+    padding: 64px 32px !important;
   }
 
   div > .title:not(a) {
-    padding: 0px 48px !important;
+    padding: 0px 32px !important; /*填充 div 的 title 类，因有同类名的 a 链接，故排除*/
   }
 
   .group {
-    width: 100% !important;
+    width: 100% !important; /*填充侧边栏各链接至容器大小*/
   }
 
 }
 
 .item {
-  user-select: none;
-}
-
-.caret-icon {
-  font-size: 24px !important;
-}
-
-th, td {
-  font-family: 'Cascadia Code', 'Fira Code', monospace !important;
+  user-select: none;  /*防止用户多次点击选中*/
 }
