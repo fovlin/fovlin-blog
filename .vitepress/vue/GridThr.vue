@@ -11,7 +11,7 @@
 
 .grid {
     display: grid;
-    grid-gap: 12px 12px;
+    grid-gap: 12px 4px;
     grid-template-columns: 1fr;
     align-items: left;
 }
@@ -21,7 +21,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: left;
-        grid-gap: 12px 12px;
+        grid-gap: 4px 4px;
         padding: 0px 0px;
     }
 }

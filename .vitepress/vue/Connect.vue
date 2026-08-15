@@ -18,6 +18,7 @@
 
     .connect-grid {
         display: grid;
+        padding: 4px 96px;
         grid-template-columns: 1fr 3fr;
         align-items: center;
         font-size: 21px;
@@ -67,11 +68,12 @@
         background: linear-gradient(to right, var(--vp-c-brand-soft) 45%, #ffaf0000 90%);
     }
 
-@media (max-width: 640px){
+@media (max-width: 960px){
 
     .connect-grid {
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        padding: 4px 0px;
+        grid-template-columns: 1fr 4fr;
         align-items: center;
         font-size: 16px;
     }

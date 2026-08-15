@@ -35,6 +35,8 @@ import Connect from './.vitepress/vue/Connect.vue'
 
 <CardFiles title="Obsidian Acovia Theme" href="https://github.com/fovlin/obsidian-acovia-theme">与此网站有着相同配色方案的 Obsidian 主题，在护眼方面做了深度优化，适合长时间写作。</CardFiles>
 
+<CardFiles title="Mc-saver" href="https://github.com/fovlin/mc-saver">使用 Go 语言编写的 MC 存档备份工具，可使用 Json 编写备份规则，进行自定义备份。</CardFiles>
+
 </GridTwo>
 
 </Block>

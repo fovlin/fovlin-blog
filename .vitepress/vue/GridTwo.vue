@@ -11,6 +11,7 @@
 
 .grid-two {
     display: grid;
+    grid-gap: 12px 4px;
     grid-template-columns: 1fr;
     text-align: center;
 }
@@ -19,7 +20,7 @@
 
     .grid-two {
         text-align: left;
-        grid-gap: 16px 24px;
+        grid-gap: 4px 4px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
     }
