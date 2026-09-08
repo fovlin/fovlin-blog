@@ -1,9 +1,8 @@
 import { defineConfig } from 'vitepress'
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Acovia 档案馆',
+  title: 'Fovlin blog',
   appearance: 'dark',
-  description: 'Fovlin 的档案存放处',
+  description: 'Fovlin Fovlin blog',
   themeConfig: {
     editLink: {
       pattern: 'https://github.com/fovlin/acovia-website'

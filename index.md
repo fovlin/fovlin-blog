@@ -17,13 +17,13 @@ import Connect from './.vitepress/vue/Connect.vue'
 
 <Block title="联系方式">
 
-<Connect name="邮箱-1" connect="fovlin@163.com"/>
+<Connect name="邮箱-1" connect="fovlin@163.com" />
 
 <Connect name="邮箱-2" connect="user.fovlin@outlook.com" />
 
-<Connect name="QQ" connect="339853356" url="https://qm.qq.com/q/uvrNnH4bmg"/>
+<Connect name="QQ" connect="339853356" url="https://qm.qq.com/q/uvrNnH4bmg" />
 
-<Connect name="微信" connect="BFling_06"/>
+<Connect name="微信" connect="BFling_06" />
 
 </Block>
 
@@ -38,6 +38,13 @@ import Connect from './.vitepress/vue/Connect.vue'
 <CardFiles title="Mc-saver" href="https://github.com/fovlin/mc-saver">使用 Go 语言编写的 MC 存档备份工具，可使用 Json 编写备份规则，进行自定义备份。</CardFiles>
 
 </GridTwo>
+
+</Block>
+
+
+<Block>
+
+<Connect name="留言板" connect="msg.fovlin.com" url="https://msg.fovlin.com" />
 
 </Block>
 

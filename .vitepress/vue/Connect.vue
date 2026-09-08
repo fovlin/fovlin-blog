@@ -33,10 +33,8 @@
         border: 1.2px solid var(--vp-c-brand-1);
     }
 
-    .connect-grid:hover > .connect::before {
-        z-index: -1;
-        opacity: 100%;
-        width: 100%;
+    .connect-grid:hover > .connect {
+        background-color: var(--vp-c-brand-soft);
     }
 
     .name {
@@ -50,22 +48,10 @@
     }
 
     .connect {
-        position: relative;
-        border-left: 5px solid var(--vp-c-brand-1);
-        padding-left: 16px;
-    }
-
-    .connect::before {
-        opacity: 0%;
-        z-index: -1;
+        border-radius: 16px;
         transition: 0.3s;
-        content: "";
-        position: absolute;
-        height: 100%;
-        top: 0;
-        left: 0;
-        width: 0;
-        background: linear-gradient(to right, var(--vp-c-brand-soft) 45%, #ffaf0000 90%);
+        background-color: var(--vp-c-bg-alt);
+        padding-left: 16px;
     }
 
 @media (max-width: 960px){
