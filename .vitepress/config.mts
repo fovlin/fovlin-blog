@@ -20,69 +20,44 @@ export default defineConfig({
     sidebar: [
       { text: 'Welcome', link: '/welcome' },
       {
-        text: 'Linux 简明指南',
+        text: 'Linux Notes',
         collapsed: true,
         items: [
-          { text: '选择发行版', link: '/docs/linux-guide/choose' },
-          { text: '安装选项', link: '/docs/linux-guide/install-linux-options' },
-          { text: '认识 Linux 系统', link: '/docs/linux-guide/os-guide' },
-          { text: '认识命令行', link: '/docs/linux-guide/cli-guide' },
-          {
-            text: '使用命令行',
-            collapsed: true,
-            items: [
-              { text: '文件管理', link: '/docs/linux-guide/use-cli/file-manage' },
-              { text: 'I/O 重定向', link: '/docs/linux-guide/use-cli/io-redirection' },
-              { text: '进程管理', link: '/docs/linux-guide/use-cli/proc-manage' }
-            ]
-          },
-          {
-            text: '配置系统',
-            collapsed: true,
-            items: [
-              { text: '区域语言', link: '/docs/linux-guide/configure-system/locale' },
-              { text: '用户管理', link: '/docs/linux-guide/configure-system/user-manage' },
-              { text: '应用安装', link: '/docs/linux-guide/configure-system/application-install-manage' },
-              { text: '双系统引导', link: '/docs/linux-guide/configure-system/double-system-grub' },
-              { text: '磁盘管理', link: '/docs/linux-guide/configure-system/disk-manage' },
-              { text: '更改提示符样式', link: '/docs/linux-guide/configure-system/custom-terminal' },
-              { text: '桌面环境', link: '/docs/linux-guide/configure-system/desktop-env-choose' },
-              { text: 'Nvidia 驱动', link: '/docs/linux-guide/configure-system/nvidia-driver' },
-              { text: '使用独立显卡运行', link: '/docs/linux-guide/configure-system/run-with-dedicated-gpu' },
-              { text: '常见问题以及解决方案', link: '/docs/linux-guide/configure-system/solution' },
-            ]
-          },
-          { text: '快捷键', link: '/docs/linux-guide/shortcut-key' },
+          { text: '选择发行版', link: '/docs/linux-notes/choose' },
+          { text: '安装选项', link: '/docs/linux-notes/install-linux-options' },
+          { text: '认识 Linux 系统', link: '/docs/linux-notes/os-guide' },
+          { text: '认识命令行', link: '/docs/linux-notes/cli-guide' },
+          { text: '文件管理', link: '/docs/linux-notes/use-cli/file-manage' },
+          { text: 'I/O 重定向', link: '/docs/linux-notes/use-cli/io-redirection' },
+          { text: '进程管理', link: '/docs/linux-notes/use-cli/proc-manage' },
+          { text: '区域语言', link: '/docs/linux-notes/locale' },
+          { text: '用户管理', link: '/docs/linux-notes/user-manage' },
+          { text: '应用安装', link: '/docs/linux-notes/application-install-manage' },
+          { text: '双系统引导', link: '/docs/linux-notes/double-system-grub' },
+          { text: '磁盘管理', link: '/docs/linux-notes/disk-manage' },
+          { text: '更改提示符样式', link: '/docs/linux-notes/custom-terminal' },
+          { text: '桌面环境', link: '/docs/linux-notes/desktop-env-choose' },
+          { text: '显卡驱动', link: '/docs/linux-notes/nvidia-driver' },
+          { text: '使用独立显卡运行', link: '/docs/linux-notes/run-with-dedicated-gpu' },
+          { text: '常见问题以及解决方案', link: '/docs/linux-notes/solution' },
         ],
       },
       {
-        text: '其他',
+        text: "Web Notes",
         collapsed: true,
         items: [
-          {
-            text: '前端 Notes',
-            collapsed: true,
-            items: [
-              { text: '前端基础', link: '/docs/web-guide/web-base' },
-              { text: '网站部署', link: '/docs/web-guide/web-release' },
-              {
-                text: 'Nginx 指南',
-
-                collapsed: true,
-                items: [
-                  { text: 'Nginx 搭建下载站', link: '/docs/web-guide/nginx-guide/autoindex' },
-                  { text: 'Nginx 反向代理', link: '/docs/web-guide/nginx-guide/proxy' },
-                ]
-              }
-            ]
-          },
-          {
-            text: 'Fovlin',
-            collapsed: true,
-            items: [
-              { text: '关于 Fovlin', link: '/docs/fovlin/about-me' },
-            ]
-          },
+          { text: '前端基础', link: '/docs/web-guide/web-base' },
+          { text: '网站部署', link: '/docs/web-guide/web-release' },
+          { text: 'Nginx 搭建下载站', link: '/docs/web-guide/nginx-guide/autoindex' },
+          { text: 'Nginx 反向代理', link: '/docs/web-guide/nginx-guide/proxy' },
+          { text: '关于 Fovlin', link: '/docs/fovlin/about-me' },
+        ]
+      },
+      {
+        text: "Topics",
+        collapsed: true,
+        items: [
+          { text: '关于 Fovlin', link: '/docs/fovlin/about-me' },
         ]
       },
     ],
