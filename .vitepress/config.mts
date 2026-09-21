@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
-  title: 'Fovlin blog',
+  title: 'Fovlin Blog',
   appearance: 'dark',
-  description: 'Fovlin Fovlin blog',
+  description: 'Fovlin Blog',
   sitemap: {
     hostname: 'https://fovlin.com'
   },
