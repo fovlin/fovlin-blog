@@ -4,19 +4,21 @@
 
 <template>
     <a class="connect-grid" v-bind:href="url">
-        <p class="name">{{ name }}</p>
-        <p class="connect">{{ connect }}</p>
+        <p id="name" class="card">{{ name }}</p>
+        <p id="connect" class="card">{{ connect }}</p>
     </a>
 </template>
 
 <style scoped>
 
-    p {
+    .card {
+        color: var(--vp-c-text-1);
         padding: 12px 0px;
         margin: 4px 0px;
     }
 
     .connect-grid {
+        scrollbar-width: none;
         display: grid;
         padding: 4px 96px;
         grid-template-columns: 1fr 3fr;
@@ -27,17 +29,17 @@
         text-wrap: nowrap;
     }
 
-    .connect-grid:hover > .name {
+    .connect-grid:hover > #name {
         color: var(--vp-c-brand-1);
         background-color: var(--vp-c-brand-soft);
         border: 1.2px solid var(--vp-c-brand-1);
     }
 
-    .connect-grid:hover > .connect {
+    .connect-grid:hover > #connect {
         background-color: var(--vp-c-brand-soft);
     }
 
-    .name {
+    #name {
         transition: 0.3s;
         margin-right: 12px;
         min-width: 120px;
@@ -47,7 +49,7 @@
         text-align: center;
     }
 
-    .connect {
+    #connect {
         border-radius: 16px;
         transition: 0.3s;
         background-color: var(--vp-c-bg-alt);
