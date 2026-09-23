@@ -20,6 +20,8 @@ DRI_PRIME=vendor_id:device_id：选择第一个匹配这些 ID 的 GPU。
 对于 Vulkan，可以在后面加上 !，这时只会将所选 GPU 暴露给应用（例如：DRI_PRIME=1!）。
 ```
 
+在运行时，通过设置环境变量即可调用指定的显卡。
+
 ## NVIDIA 显卡
 
 NVIDIA 驱动程序的 README 中说明：

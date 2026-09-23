@@ -24,6 +24,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '使用独立显卡运行', link: '/docs/linux-notes/run-with-dedicated-gpu' },
+          { text: '开发 fcitx5 主题', link: '/docs/linux-notes/fcitx5-theme-dev' },
         ],
       },
       {
