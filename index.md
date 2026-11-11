@@ -31,7 +31,9 @@ import Connect from './.vitepress/vue/Connect.vue'
 
 <GridTwo>
 
-<CardFiles title="mc-saver" href="https://github.com/fovlin/mc-saver">使用 Go 语言编写的 MC 存档备份工具，可使用 Json 编写备份规则，进行自定义备份。</CardFiles>
+<CardFiles title="NEXT_INDEX" href="https://github.com/fovlin/next-index">Go 语言编写的新一代文件索引服务器，实现了更便捷的文件分发功能。</CardFiles>
+
+<CardFiles title="mc-saver" href="https://github.com/fovlin/mc-saver">使用 Go 语言编写的 MC 存档备份工具，可使用 Json 编写备份规则，进行选择性自定义备份。</CardFiles>
 
 <CardFiles title="acovia" href="https://acovia.net">更新激进的原版中世纪风格服务器，启用正版验证，支持基岩版，最重要的是，<a href="https://hub.acovia.net/acovia-backups/">存档是公开的！！！</a></CardFiles>
 
