@@ -1,0 +1,39 @@
+[
+  {
+    "text": "开始",
+    "items": [
+      {
+        "text": "欢迎",
+        "link": "/welcome"
+      }
+    ]
+  },
+  {
+    "text": "Linux 笔记",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "使用独立显卡运行",
+        "link": "/linux-notes/run-with-dedicated-gpu"
+      },
+      {
+        "text": "开发 fcitx5 主题",
+        "link": "/linux-notes/fcitx5-theme-dev"
+      }
+    ]
+  },
+  {
+    "text": "关于",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "关于 Fovlin",
+        "link": "/fovlin/about-me"
+      },
+      {
+        "text": "梦",
+        "link": "/fovlin/sketch/unknow-1"
+      }
+    ]
+  }
+]

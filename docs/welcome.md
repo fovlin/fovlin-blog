@@ -10,8 +10,8 @@
 
 另一个站点完全由 AI 驱动，你可以点击右上角的五角星前往，手机端的五角星需要先点击右上角的三个点才会显示。
 
-关于我：[关于 Fovlin -\>](/docs/fovlin/about-me)
+关于我：[关于 Fovlin -\>](/fovlin/about-me)
 
 玩得开心！！
 
-> 采用 [Vitepress](https://vitepress.dev/) 构建。
+> 采用 [docs-go](https://github.com/fovlin/docs-go) 构建。

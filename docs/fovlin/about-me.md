@@ -8,9 +8,7 @@ Fovlin 是一个就读于化学系的大学生，性格比较内向，不擅长�
 
 > technoplanet
 
-​<audio id="audio" controls preload loop><source id="mp3" src="https://hub.acovia.net/music/antikythera.mp3"></source></audio>
-
-第一次接触这个曲子是在 Rotaeno 和花语旋律的联动曲中，钢琴如雨点般落下，在三连音出现的时候，意象中的大雨也转为了暴雨。
+​第一次接触这个曲子是在 Rotaeno 和花语旋律的联动曲中，钢琴如雨点般落下，在三连音出现的时候，意象中的大雨也转为了暴雨。
 
 随着曲目钢琴音的放缓，闭上眼睛能看到雨水随花瓣缓缓飘下的场景。
 
@@ -24,9 +22,7 @@ Fovlin 是一个就读于化学系的大学生，性格比较内向，不擅长�
 
 > technoplanet / 木下珠子
 
-​<audio id="audio" controls preload loop><source id="mp3" src="https://hub.acovia.net/music/antikythera-vocal-version.mp3"></source></audio>
-
-这个较于 Antikythera 插入了木下珠子的人声，歌声婉转，如同在暴雨中吟唱，配合原版的钢琴旋律，所有情绪倾泻而出，极具情感冲击力的一首歌曲。
+​这个较于 Antikythera 插入了木下珠子的人声，歌声婉转，如同在暴雨中吟唱，配合原版的钢琴旋律，所有情绪倾泻而出，极具情感冲击力的一首歌曲。
 
 **部分歌词：**
 
@@ -56,7 +52,6 @@ Fovlin 是一个就读于化学系的大学生，性格比较内向，不擅长�
 
 > EssBee
 
-​<audio id="audio" controls preload loop><source id="mp3" src="https://hub.acovia.net/music/kui_.mp3"></source></audio>
 
 出自 旋转音律 Rotaeno 的支线终章曲目，按照剧情本意，伊洛在好朋友荷珀前往其他星球时，自己未选择和她一起出发感到悔过。
 
@@ -86,7 +81,6 @@ Fovlin 是一个就读于化学系的大学生，性格比较内向，不擅长�
 
 > Chamber Chu
 
-​<audio id="audio" controls preload loop><source id="mp3" src="https://hub.acovia.net/music/bloom.mp3"></source></audio>
 
 怀揣着对音乐的热爱，将自己心中的生命乐章呈现在琴键上吧，无论暴雨是否会停息，无论明天是否会更好，只要演奏音乐，就能换来晴天！
 
@@ -98,7 +92,6 @@ Fovlin 是一个就读于化学系的大学生，性格比较内向，不擅长�
 
 > Chamber Chu
 
-​<audio id="audio" controls preload loop><source id="mp3" src="https://hub.acovia.net/music/away-from-the-rain.mp3"></source></audio>
 
 花语旋律主题曲，太多的情感被寄托在旋律其中，歌曲结尾，听似杂乱无章的钢琴音，却是雨的旋律。
 
