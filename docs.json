@@ -31,13 +31,13 @@
     },
     {
       "icon": "link",
-      "link": "https://hub.acovia.net",
+      "link": "https://acovia.net",
       "label": "Acovia"
     }
   ],
   "footer": {
     "message": "使用 docs-go 构建",
-    "copyright": "Copyright © {year} Fovlin"
+    "copyright": "Copyright © 2026 Fovlin"
   },
   "outline": {
     "label": "On this page",
