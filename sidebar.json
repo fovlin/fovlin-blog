@@ -1,14 +1,5 @@
-[
-  {
-    "text": "开始",
-    "items": [
-      {
-        "text": "欢迎",
-        "link": "/welcome"
-      }
-    ]
-  },
-  {
+{
+  "Notes": {
     "text": "Linux 笔记",
     "collapsed": true,
     "items": [
@@ -22,7 +13,7 @@
       }
     ]
   },
-  {
+  "Stores": {
     "text": "关于",
     "collapsed": true,
     "items": [
@@ -32,4 +23,4 @@
       }
     ]
   }
-]
+}
