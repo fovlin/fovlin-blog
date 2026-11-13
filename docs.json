@@ -10,7 +10,7 @@
   "site_url": "https://fovlin.com",
   "sitemap": true,
   "sidebar_file": "sidebar.json",
-  "logo": "/star.svg",
+  "logo": "/docs-go.svg",
   "appearance": "dark",
   "nav": [
     {
@@ -18,12 +18,8 @@
       "link": "/"
     },
     {
-      "text": "Fovlin",
-      "link": "/fovlin/about-me"
-    },
-    {
       "text": "Notes",
-      "link": "/linux-notes/welcome"
+      "link": "/notes/welcome"
     }
   ],
   "social_links": [

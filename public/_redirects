@@ -1,0 +1,31 @@
+# 旧版页面地址，保留已有链接
+/welcome /notes/welcome 301
+/linux-notes/welcome /notes/welcome 301
+
+# 旧版单篇笔记 -> 合并后的章节
+/notes/linux/choose /notes/linux/getting-started 301
+/notes/linux/install-linux-options /notes/linux/getting-started 301
+/notes/linux/os-guide /notes/linux/getting-started 301
+/notes/linux/cli-guide /notes/linux/getting-started 301
+/notes/linux/file-manage /notes/linux/command-line 301
+/notes/linux/io-redirection /notes/linux/command-line 301
+/notes/linux/proc-manage /notes/linux/command-line 301
+/notes/linux/locale /notes/linux/system-config 301
+/notes/linux/user-manage /notes/linux/system-config 301
+/notes/linux/application-install-manage /notes/linux/system-config 301
+/notes/linux/double-system-grub /notes/linux/disk-and-boot 301
+/notes/linux/disk-manage /notes/linux/disk-and-boot 301
+/notes/linux/desktop-env-choose /notes/linux/desktop-and-gpu 301
+/notes/linux/custom-terminal /notes/linux/desktop-and-gpu 301
+/notes/linux/nvidia-driver /notes/linux/desktop-and-gpu 301
+/notes/linux/run-with-dedicated-gpu /notes/linux/desktop-and-gpu 301
+/notes/linux/solution /notes/linux/desktop-and-gpu 301
+/notes/linux/fcitx5-theme-dev /notes/linux/fcitx5-theme 301
+/notes/web/web-base /notes/web/frontend-and-deploy 301
+/notes/web/web-release /notes/web/frontend-and-deploy 301
+/notes/web/nginx/autoindex /notes/web/frontend-and-deploy 301
+/notes/web/nginx/proxy /notes/web/frontend-and-deploy 301
+/notes/misc/passwd-table /notes/linux/passwd-table 301
+
+# 更早的 /linux-notes/* 地址
+/linux-notes/* /notes/linux/:splat 301

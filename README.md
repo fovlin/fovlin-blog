@@ -8,7 +8,11 @@ No Node.js, no bundler: one Go binary reads the Markdown and writes static HTML.
 ```text
 docs/          the Markdown pages
   index.md     the home page
-public/        files copied as-is (images, fonts, robots.txt)
+  fovlin/      the about page and sketches
+  notes/       personal notes
+    linux/     Linux guide and reference
+    web/       frontend and deployment notes
+public/        files copied as-is (images, fonts, robots.txt, _redirects)
 docs.json      site title, language, nav, footer, outline
 sidebar.json   the navigation tree
 dist/          the generated site (git ignored)
