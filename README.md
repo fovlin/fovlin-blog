@@ -8,7 +8,6 @@ No Node.js, no bundler: one Go binary reads the Markdown and writes static HTML.
 ```text
 docs/          the Markdown pages
   index.md     the home page
-  fovlin/      the about page and sketches
   notes/       personal notes
     linux/     Linux guide and reference
     web/       frontend and deployment notes

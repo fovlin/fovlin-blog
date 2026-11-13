@@ -1,10 +1,10 @@
-# 开发 fcitx5 主题
+# fcitx5 主题开发笔记
 
-fcitx5 没有官方权威的主题开发文档，这篇笔记按程序行为和默认主题整理，适合想从零改一套输入法皮肤的人。
+fcitx5 没有官方权威的主题文档；这里按程序行为和默认主题记录。
 
 ## 主题目录
 
-系统级主题放在 `/usr/share/fcitx5/themes`，用户级主题放在 `~/.local/share/fcitx5/themes`。用户目录优先级更高，自定义主题放这里即可。
+系统级主题放在 `/usr/share/fcitx5/themes`，用户级主题放在 `~/.local/share/fcitx5/themes`。用户目录优先；自定义主题放这里。
 
 复制默认主题作为起点：
 
@@ -19,7 +19,7 @@ cp -r /usr/share/fcitx5/themes/default ~/.local/share/fcitx5/themes/custom-theme
 arrow.svg  next.svg  prev.svg  radio.svg  theme.conf
 ```
 
-`theme.conf` 描述主题如何渲染，以及引用哪些 SVG。SVG 不是必需的；只有 `theme.conf` 里引用了对应图片时才需要提供。
+`theme.conf` 描述主题如何渲染、引用哪些 SVG。SVG 不是必需的；只有配置里引用了对应图片时才需要提供。
 
 ## theme.conf 的结构
 
@@ -179,7 +179,7 @@ Bottom=5
 
 ### AccentColorField
 
-`[AccentColorField]` 把主题颜色映射到 fcitx5 的强调色字段，序号对应界面中的不同元素。想支持系统强调色时，可以在这里调整映射。
+`[AccentColorField]` 把主题颜色映射到 fcitx5 的强调色字段，序号对应界面元素。支持系统强调色时调整这里。
 
 ## 调试
 
@@ -189,8 +189,8 @@ Bottom=5
 fcitx5 -r -d
 ```
 
-也可以打开 `fcitx5-configtool`，在“附加组件 → 经典用户界面 → 主题”中切换主题，边改边看效果。
+也可在 `fcitx5-configtool` 的“附加组件 → 经典用户界面 → 主题”中切换查看效果。
 
 ## 参考
 
-- [fcitx5-theme-acovia](https://github.com/fovlin/fcitx5-theme-acovia)：按本文思路制作的主题
+- [fcitx5-theme-acovia](https://github.com/fovlin/fcitx5-theme-acovia)：按这份笔记的思路制作的主题

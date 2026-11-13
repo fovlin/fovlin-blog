@@ -10,7 +10,7 @@
   "site_url": "https://fovlin.com",
   "sitemap": true,
   "sidebar_file": "sidebar.json",
-  "logo": "/docs-go.svg",
+  "logo": "/sufox.png",
   "appearance": "dark",
   "nav": [
     {
