@@ -32,12 +32,8 @@
           "link": "/notes/linux/desktop-and-gpu"
         },
         {
-          "text": "fcitx5 主题",
+          "text": "开发fcitx5 主题",
           "link": "/notes/linux/fcitx5-theme"
-        },
-        {
-          "text": "密码对照表",
-          "link": "/notes/linux/passwd-table"
         }
       ]
     },
