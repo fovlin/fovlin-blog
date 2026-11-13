@@ -1,5 +1,5 @@
 {
-  "Notes": [{
+  "linux-notes": [{
     "text": "Linux 笔记",
     "collapsed": true,
     "items": [
@@ -13,7 +13,7 @@
       }
     ]
   }],
-  "Stores": [{
+  "fovlin": [{
     "text": "关于",
     "collapsed": true,
     "items": [
