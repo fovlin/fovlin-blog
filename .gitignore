@@ -1,5 +1,1 @@
-node_modules/
-/.vitepress/dist/
-/.vitepress/cache/
-/docs/.obsidian/
-package-lock.json
+dist/
