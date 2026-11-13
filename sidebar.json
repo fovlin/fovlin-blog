@@ -1,30 +1,66 @@
 {
-  "linux-notes": [{
-    "text": "Linux 笔记",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "引言",
-        "link": "/linux-notes/welcome"
-      },
-      {
-        "text": "使用独立显卡运行",
-        "link": "/linux-notes/run-with-dedicated-gpu"
-      },
-      {
-        "text": "开发 fcitx5 主题",
-        "link": "/linux-notes/fcitx5-theme-dev"
-      }
-    ]
-  }],
-  "fovlin": [{
-    "text": "关于",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "关于 Fovlin",
-        "link": "/fovlin/about-me"
-      }
-    ]
-  }]
+  "notes": [
+    {
+      "text": "欢迎",
+      "link": "/notes/welcome"
+    },
+    {
+      "text": "Linux",
+      "items": [
+        {
+          "text": "Linux 入门",
+          "link": "/notes/linux/getting-started"
+        },
+        {
+          "text": "命令行基础",
+          "link": "/notes/linux/command-line"
+        },
+        {
+          "text": "常用快捷键",
+          "link": "/notes/linux/shortcut-key"
+        },
+        {
+          "text": "系统配置",
+          "link": "/notes/linux/system-config"
+        },
+        {
+          "text": "磁盘与双系统",
+          "link": "/notes/linux/disk-and-boot"
+        },
+        {
+          "text": "桌面、驱动与显卡",
+          "link": "/notes/linux/desktop-and-gpu"
+        },
+        {
+          "text": "fcitx5 主题",
+          "link": "/notes/linux/fcitx5-theme"
+        },
+        {
+          "text": "密码对照表",
+          "link": "/notes/linux/passwd-table"
+        }
+      ]
+    },
+    {
+      "text": "Web",
+      "items": [
+        {
+          "text": "前端基础与网站部署",
+          "link": "/notes/web/frontend-and-deploy"
+        }
+      ]
+    }
+  ],
+  "fovlin": [
+    {
+      "text": "关于",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "关于 Fovlin",
+          "link": "/fovlin/about-me"
+        }
+      ]
+    }
+  ]
 }
