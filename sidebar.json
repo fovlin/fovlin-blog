@@ -1,5 +1,5 @@
 {
-  "Notes": {
+  "Notes": [{
     "text": "Linux 笔记",
     "collapsed": true,
     "items": [
@@ -12,8 +12,8 @@
         "link": "/linux-notes/fcitx5-theme-dev"
       }
     ]
-  },
-  "Stores": {
+  }],
+  "Stores": [{
     "text": "关于",
     "collapsed": true,
     "items": [
@@ -22,5 +22,5 @@
         "link": "/fovlin/about-me"
       }
     ]
-  }
+  }]
 }
