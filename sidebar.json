@@ -50,17 +50,5 @@
         }
       ]
     }
-  ],
-  "fovlin": [
-    {
-      "text": "关于",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "关于 Fovlin",
-          "link": "/fovlin/about-me"
-        }
-      ]
-    }
   ]
 }
