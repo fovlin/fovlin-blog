@@ -4,8 +4,6 @@ Hi，我叫 Fovlin，可以叫我柏茯灵！一个化学生兼 JavaScript、GoL
 
 [翻阅 ->](/welcome) · [添加我的 QQ 好友](https://qm.qq.com/q/uvrNnH4bmg)
 
-![Fovlin](/fovlin.png)
-
 ## 联系方式
 
 - 邮箱-1：fovlin@163.com
