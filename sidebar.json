@@ -4,6 +4,10 @@
     "collapsed": true,
     "items": [
       {
+        "text": "引言",
+        "link": "/linux-notes/welcome"
+      },
+      {
         "text": "使用独立显卡运行",
         "link": "/linux-notes/run-with-dedicated-gpu"
       },

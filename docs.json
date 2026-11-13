@@ -16,6 +16,14 @@
     {
       "text": "Home",
       "link": "/"
+    },
+    {
+      "text": "Fovlin",
+      "link": "/fovlin/about-me"
+    },
+    {
+      "text": "Notes",
+      "link": "/linux-notes/welcome"
     }
   ],
   "social_links": [
