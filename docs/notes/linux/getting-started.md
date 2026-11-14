@@ -17,7 +17,7 @@ Linux 只是内核；发行版 = 内核 + 工具 + 软件包。参考 [Linux.org
 
 选择参考：
 
-- 不想折腾：Ubuntu、Linux Mint
+- 开箱即用：Ubuntu、Linux Mint
 - 新软件 + 相对稳定：Fedora
 - 滚动更新、愿意自己配置：Arch
 - 长期稳定：Debian
