@@ -23,6 +23,4 @@
 
 - [前端基础与网站部署](/notes/web/frontend-and-deploy)：HTML/CSS、Nginx 与反向代理。
 
-玩得开心！！
-
-> 采用 [docs-go](https://github.com/fovlin/docs-go) 构建。
+> 使用 [docs-go](https://github.com/fovlin/docs-go) 构建。
