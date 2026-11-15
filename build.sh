@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
+pkg="docs-go_linux_amd64"
+url="https://repo.acovia.net/packages/docs-go/${pkg}.tar.gz"
 
-url="https://repo.acovia.net/packages/docs-go"
+wget "${url}"
+tar -xzvf ${pkg}.tar.gz
 
-curl -fsSL "$url" -o ./docs-go
-tar -xzvf docs-go_linux_amd64.tar.gz
+chmod +x ./${pkg}/docs-go
 
-chmod +x ./docs-go_linux_amd64/docs-go
-
-./docs-go_linux_amd64/docs-go build .
+./${pkg}/docs-go build .
