@@ -1,6 +1,6 @@
-# Web 前端与部署笔记
+# Web 前端与部署
 
-记录 HTML/CSS 基础、Nginx 安装配置、下载站和反向代理。
+涵盖 HTML/CSS 基础、Nginx 安装配置、下载站与反向代理。
 
 ## 前端基础
 
@@ -272,4 +272,4 @@ stream {
 
 ## 相关
 
-- 笔记目录：[欢迎](/notes/welcome)
+- 文档索引：[文档目录](/notes/welcome)

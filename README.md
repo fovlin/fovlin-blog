@@ -1,6 +1,6 @@
 # fovlin-blog
 
-Personal notes, built with [docs-go](https://github.com/fovlin/docs-go).
+Personal documentation site, built with [docs-go](https://github.com/fovlin/docs-go).
 No Node.js, no bundler: one Go binary reads the Markdown and writes static HTML.
 
 ## Layout
@@ -8,10 +8,10 @@ No Node.js, no bundler: one Go binary reads the Markdown and writes static HTML.
 ```text
 docs/          the Markdown pages
   index.md     the home page
-  notes/       personal notes
-    linux/     Linux guide and reference
-    web/       frontend and deployment notes
-public/        files copied as-is (images, fonts, robots.txt, _redirects)
+  notes/       documentation pages
+    linux/     Linux guides and reference
+    web/       frontend and deployment guides
+public/        files copied as-is (the site avatar)
 docs.json      site title, language, nav, footer, outline
 sidebar.json   the navigation tree
 dist/          the generated site (git ignored)

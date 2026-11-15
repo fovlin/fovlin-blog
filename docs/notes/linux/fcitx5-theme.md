@@ -1,10 +1,10 @@
-# fcitx5 主题开发笔记
+# fcitx5 主题开发
 
-fcitx5 没有官方权威的主题文档；这里按程序行为和默认主题记录。
+fcitx5 没有官方权威的主题文档；以下内容依据程序行为与默认主题整理。
 
 ## 主题目录
 
-系统级主题放在 `/usr/share/fcitx5/themes`，用户级主题放在 `~/.local/share/fcitx5/themes`。用户目录优先；自定义主题放这里。
+系统级主题放在 `/usr/share/fcitx5/themes`，用户级主题放在 `~/.local/share/fcitx5/themes`。用户目录优先，自定义主题应放在用户目录下。
 
 复制默认主题作为起点：
 
@@ -179,7 +179,7 @@ Bottom=5
 
 ### AccentColorField
 
-`[AccentColorField]` 把主题颜色映射到 fcitx5 的强调色字段，序号对应界面元素。支持系统强调色时调整这里。
+`[AccentColorField]` 把主题颜色映射到 fcitx5 的强调色字段，序号对应界面元素。桌面环境支持系统强调色时，可调整这些映射。
 
 ## 调试
 
@@ -193,4 +193,4 @@ fcitx5 -r -d
 
 ## 参考
 
-- [fcitx5-theme-acovia](https://github.com/fovlin/fcitx5-theme-acovia)：按这份笔记的思路制作的主题
+- [fcitx5-theme-acovia](https://github.com/fovlin/fcitx5-theme-acovia)：按本文思路制作的主题
