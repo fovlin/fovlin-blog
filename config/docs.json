@@ -1,0 +1,54 @@
+{
+  "title": "Fovlin Blog",
+  "description": "Fovlin Blog",
+  "lang": "zh-CN",
+  "base": "/",
+  "src_dir": "docs",
+  "out_dir": "dist",
+  "public_dir": "public",
+  "clean_urls": true,
+  "site_url": "https://fovlin.com",
+  "sitemap": true,
+  "sidebar_file": "sidebar.json",
+  "logo": "/sufox.png",
+  "appearance": "dark",
+  "nav": [
+    {
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "text": "Docs",
+      "link": "/notes/welcome/"
+    }
+  ],
+  "social_links": [
+    {
+      "icon": "github",
+      "link": "https://github.com/fovlin",
+      "label": "GitHub"
+    },
+    {
+      "icon": "bilibili",
+      "link": "https://b23.tv/gOLGiGq",
+      "label": "Bilibili"
+    },
+    {
+      "icon": "link",
+      "link": "https://acovia.net",
+      "label": "Acovia"
+    }
+  ],
+  "footer": {
+    "message": "使用 docs-go 构建",
+    "copyright": "Copyright © 2026 Fovlin"
+  },
+  "outline": {
+    "label": "On this page",
+    "level": [
+      2,
+      3
+    ]
+  },
+  "prev_next": true
+}
